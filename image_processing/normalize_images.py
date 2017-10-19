@@ -1,11 +1,12 @@
 import json
 import os
+import shutil
 
 labels = {}
 count = 1000
 
 try:
-  os.removedirs('images')
+  shutil.rmtree('images')
 except:
   pass
 
