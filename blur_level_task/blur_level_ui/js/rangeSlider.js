@@ -18,5 +18,5 @@ $(function () {
 });
 
 function setConfidenceLabel() {
-	$("#confidenceLabel").text(confidenceLabels[$("#confidenceRange").val()]);
+  $("#confidenceLabel").text(confidenceLabels[$("#confidenceRange").val()]);
 }

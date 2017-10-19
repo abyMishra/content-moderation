@@ -10,12 +10,12 @@
 <script language='Javascript'>
 // This method Gets URL Parameters (GUP)
 function gup(name) {
-  var regexS = "[\\?&]" + name + "=([^&#]*)";
+  var regexS = '[\\?&]' + name + '=([^&#]*)';
   var regex = new RegExp(regexS);
   var tmpURL = window.location.href;
   var results = regex.exec(tmpURL);
   if (results == null)
-    return "";
+    return '';
   else
     return results[1];
 }
@@ -34,13 +34,15 @@ function decode(strToDecode) {
 
 <div id='instructions'>
 
-<p><b class='important'>Instructions:</b> A smart computer is trying to learn how to identify objects in an image and needs your help! Your job is to help the computer by telling it which object categories are present in a given image.
+<p><b class='important'>Instructions:</b> A smart computer is trying to decide if an image is allowable on Facebook or not. Your job is to help the computer by telling it which category the image <em>best</em> falls under:
 <ul>
-  <li>You will be shown 10 images one by one. The following categories can be present in an image: <span class='important'>airplane, bird, bus, car, cat, couch, dog, horse, person, train</span>. Click the <b>+ add another object</b> button to select any combination of these categories to add. It is also possible for an image to have none of these categories; in this case, select <span class='important'>NONE_OF_THE_ABOVE</span> in the list.</li>
-  <li>Rate your confidence using the slider. Values range from 1 (<i>Not at all</i>) to 5 (<i>Completely</i>).</li>
-  <li>Hover your cursor over the image and use your mousewheel to zoom in and out on a particular region of the image. Click the image once to reset it.</li>
-  <li>Press the <b>< Prev</b> and <b>Next ></b> buttons to navigate between images. If the image does not load, click the red button.  Once you have reached the last image, press <b>Next ></b> to optionally provide feedback and submit your work.</li>
+  <li><b>Realistic pornography:</b> Does the image display pornography, nudity, or overly sexual themes? Does this image look like there could be real people in it? Does the image look like a photograph?</li>
+  <li><b>Synthetic pornography:</b> Same as above, but instead, does this image look like it is an animation, cartoon, or from a video game?</li>
+  <li><b>Realistic violence:</b> Does this image display execessive violence, gore, blood, or injury? Does this image look there could be real people or animals in it? Does the image look like a photograph?</li>
+  <li><b>Synthetic violence:</b> Same as above, but instead, does this image look like it is an animation, cartoon, or from a video game?</li>
+  <li><b>Safe for work (SFW):</b> None of the above. Is this an image you would be comfortable showing to a 10 year old? Is this an image you can show to your boss and coworkers without getting in trouble?</li>
 </ul>
+Categorize the image to the best of your judgement and indicate how confident you are in your answer using the slider bar. Press the <b>< Prev</b> and <b>Next ></b> buttons to navigate between images. If the image does not load, click the red button. However, <span class='important'>if you skip too many images, your work will be rejected; if too many images do not load, please DO NOT complete the task</span>. Once you have reached the last image, press <b>Next ></b> to optionally provide feedback and submit your work.
 </p>
 
 </div>
@@ -51,16 +53,18 @@ function decode(strToDecode) {
 
 <table id='grid'>
   <td id='left'>
-    <canvas title='Scroll to zoom in and out. Click to reset the image.'></canvas>
+    <canvas></canvas>
   </td>
   <td id='right'>
     <div>
-      <b>1. What objects are present in the image?</b><br><br>
-      <table id='inputs'>
-        <tr>
-          <td><button type='button' id='addLink'>+ add another object</button></td>
-        </tr>
-      </table>
+      <b>1. What category best describes this image?</b><br><br>
+      <form action=''>
+        <input type='radio' name='category' value='pornography_realistic'> Realistic pornography<br>
+        <input type='radio' name='category' value='pornography_synthetic'> Synthetic pornography<br>
+        <input type='radio' name='category' value='violence_realistic'> Realistic violence<br>
+        <input type='radio' name='category' value='violence_realistic'> Synthetic violence<br>
+        <input type='radio' name='category' value='sfw'> SFW (none of the above)<br>
+      </form>
     </div><br>
     <div>
       <b>2. How confident are you in your answer?</b>
@@ -83,47 +87,9 @@ function decode(strToDecode) {
 </table>
 </div>
 
-<div id='modal' class='modal'>
-
-<div class="modal-content">
-  <h3>Select categories to add:</h3>
-  <table>
-    <tr>
-      <td><input type='checkbox' class='categories' name='categories' value='5'>&nbsp;<b>airplane</b></td>
-      <td><input type='checkbox' class='categories' name='categories' value='63'>&nbsp;<b>couch</b></td>
-    </tr>
-    <tr>
-      <td><input type='checkbox' class='categories' name='categories' value='16'>&nbsp;<b>bird</b></td>
-      <td><input type='checkbox' class='categories' name='categories' value='18'>&nbsp;<b>dog</b></td>
-    </tr>
-    <tr>
-      <td><input type='checkbox' class='categories' name='categories' value='6'>&nbsp;<b>bus</b></td>
-      <td><input type='checkbox' class='categories' name='categories' value='19'>&nbsp;<b>horse</b></td>
-    </tr>
-    <tr>
-      <td><input type='checkbox' class='categories' name='categories' value='3'>&nbsp;<b>car</b></td>
-      <td><input type='checkbox' class='categories' name='categories' value='1'>&nbsp;<b>person</b></td>
-    </tr>
-    <tr>
-      <td><input type='checkbox' class='categories' name='categories' value='17'>&nbsp;<b>cat</b></td>
-      <td><input type='checkbox' class='categories' name='categories' value='7'>&nbsp;<b>train</b></td>
-    </tr>
-    <tr>
-      <td><input type='checkbox' class='categories' name='categories' value='-1'>&nbsp;<span class='important'><b>NONE_OF_THE_ABOVE</b></span></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td><button id='modal-ok' type='button'>OK</button>
-      <button id='modal-cancel' type='button'>Cancel</button></td>
-    </tr>
-  </table>
-</div>
-
-</div>
-
 <div id='feedback' class='modal'>
 
-<div class="modal-content">
+<div class='modal-content'>
   <h3>Feedback</h3>
   <table>
     <tr><td>Thank you for taking the time to complete this task. If you would like to provide us feedback regarding this HIT, please do so here. To submit your answers, please click the <b>Submit</b> button. To return to the task, press the <b>Go back</b> button.</td></tr>
@@ -131,7 +97,7 @@ function decode(strToDecode) {
     <tr><td><textarea name='feedback'></textarea></td></tr>
     <tr>
       <td><input id='submitButton' type='submit' name='Submit' value='Submit'>
-      <button id="submit-cancel" type='button'>Go back</button></td>
+      <button id='submit-cancel' type='button'>Go back</button></td>
     </tr>
   </table>
 </div>
@@ -142,26 +108,24 @@ function decode(strToDecode) {
 
 </form>
 
-<script src='js/pre-labels.js'></script>
 <script src='js/rangeSlider.js'></script>
 <script src='js/canvas.js'></script>
 <script src='js/main.js'></script>
 <script src='js/nav.js'></script>
-<script src='js/addObject.js'></script>
 
 <script language='Javascript'>
-$("#assignmentId").val(gup("assignmentId"));
-// Check if the worker is PREVIEWING the HIT or if they"ve ACCEPTED the HIT
-if (gup("assignmentId") == "ASSIGNMENT_ID_NOT_AVAILABLE") {
-  // If we"re previewing, disable the button and give it a helpful message
-  $("#submitButton").attr("disabled", true)
-  $("*").click(function(evt) {
+$('#assignmentId').val(gup('assignmentId'));
+// Check if the worker is PREVIEWING the HIT or if they've ACCEPTED the HIT
+if (gup('assignmentId') == 'ASSIGNMENT_ID_NOT_AVAILABLE') {
+  // If we're previewing, disable the button and give it a helpful message
+  $('#submitButton').attr('disabled', true)
+  $('*').click(function(evt) {
     evt.stopPropagation();
-    alert("Please accept the HIT before working on it.");
+    alert('Please accept the HIT before working on it.');
   });
 } else {
-  if (document.referrer && (document.referrer.indexOf("workersandbox") != -1))
-    $("#mturk_form").attr("action", "https://workersandbox.mturk.com/mturk/externalSubmit");
+  if (document.referrer && (document.referrer.indexOf('workersandbox') != -1))
+    $('#mturk_form').attr('action', 'https://workersandbox.mturk.com/mturk/externalSubmit');
 }
 </script>
 

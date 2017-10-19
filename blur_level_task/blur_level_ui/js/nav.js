@@ -25,21 +25,25 @@ $(document).ready(function() {
   });
 
   $("#submitButton").click(function() {
-    $(".label, input[type=checkbox], #confidenceRange").remove();
+    $("input[type=radio], #confidenceRange").remove();
 
     $("<input />")
       .attr("type", "hidden")
       .attr("name", "labels")
-      .attr("value", JSON.stringify(workerAnswers))
+      .attr("value", workerAnswers)
       .appendTo("#mturk_form");
   });
 
   function checkAnswers() {
-    if (!currentLabels.addedCategories.length) {
-      alert("Please make sure you've added at least one category.");
-      return false;
+    var category = $("input[name=category]:checked").val();
+    
+    if (category) {
+      currentLabels.answer = category;
+      return true;
     }
-    return true;
+
+    alert("Please make sure you've answered the question.");
+    return false;
   }
 
   function nextImg(ok, error) {
@@ -48,8 +52,7 @@ $(document).ready(function() {
 
     if (error) {
       workerAnswers[currentImg] = "error";
-      currentLabels.addedCategories = [];
-      currentLabels.positives = [];
+      currentLabels.answer = "";
       currentLabels.confidence = 3;
     }
     else
@@ -65,21 +68,12 @@ $(document).ready(function() {
   }
 
   function saveLabels() {
-    currentLabels.positives = [];
-
-    $.each(currentLabels.addedCategories, function(i, val) {
-      currentLabels.positives.push(val);
-    });
-
     currentLabels.confidence = parseInt($("#confidenceRange").val());
 
-    var data = {
-      "positives": currentLabels.positives.slice(),
+    workerAnswers[currentImg] = {
+      "answer": currentLabels.answer,
       "confidence": currentLabels.confidence
     }
-    $.each(data.positives, function(i, val) {
-      data.positives[i] = mappings[val];
-    });
-    workerAnswers[currentImg] = data;
   } 
 });
+

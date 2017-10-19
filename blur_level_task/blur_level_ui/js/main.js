@@ -2,7 +2,6 @@ var imgs = [];
 var current = 0;
 var currentImg = -1;
 var currentLabels = {};
-var workerLabels = {};
 var workerAnswers = {};
 
 (function(key) {
@@ -21,40 +20,20 @@ var workerAnswers = {};
 
 function prepImg() {
   currentImg = imgs[current];
-
-  $(".label").remove();
-  $("#confidenceRange").val(3);
-  setConfidenceLabel();
-
   currentImgSrc = "../../images/" + currentImg + ".jpg";
   
   $("#counter").text(current + 1);
 
-  if (workerLabels[currentImg]) {
-    getWorkerLabels();
-    loadImage(true);
+  var prevAnswers = workerAnswers[currentImg];
+  if (prevAnswers && prevAnswers.answer !== "error") {
+    $("input[name=category][value='" + prevAnswers.answer + "']").prop("checked", true);
+    $("#confidenceRange").val(prevAnswers.confidence);
   } else {
-    getPreLabels();
-    loadImage(false);
+    $("input[name=category]").prop("checked", false);
+    $("#confidenceRange").val(3);
   }
-}
-
-function getWorkerLabels() {
-  currentLabels = workerLabels[currentImg];
-
-  $.each(currentLabels.addedCategories, function(i, val) {
-    addObj(val);
-  });
-
-  $("#confidenceRange").val(currentLabels.confidence);
   setConfidenceLabel();
+
+  loadImage();
 }
 
-function getPreLabels() {
-  workerLabels[currentImg] = {
-    "addedCategories": [],
-    "positives": [],
-    "confidence": 3
-  };
-  currentLabels = workerLabels[currentImg];
-}

@@ -47,5 +47,5 @@ Temporary Items
 .apdisk
 
 # Other
-hit-cli/logs
-*/*.jpg
+images
+*.swp
