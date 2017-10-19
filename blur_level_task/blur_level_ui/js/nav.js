@@ -36,13 +36,15 @@ $(document).ready(function() {
 
   function checkAnswers() {
     var category = $("input[name=category]:checked").val();
+    var type = $("input[name=type]:checked").val();
     
-    if (category) {
-      currentLabels.answer = category;
+    if (category && type) {
+      currentLabels.category = category;
+      currentLabels.type = type;
       return true;
     }
 
-    alert("Please make sure you've answered the question.");
+    alert("Please make sure you've answered all questions.");
     return false;
   }
 
@@ -50,11 +52,8 @@ $(document).ready(function() {
     if (!ok)
       return;
 
-    if (error) {
+    if (error)
       workerAnswers[currentImg] = "error";
-      currentLabels.answer = "";
-      currentLabels.confidence = 3;
-    }
     else
       saveLabels();
 
@@ -71,7 +70,8 @@ $(document).ready(function() {
     currentLabels.confidence = parseInt($("#confidenceRange").val());
 
     workerAnswers[currentImg] = {
-      "answer": currentLabels.answer,
+      "category": currentLabels.category,
+      "type": currentLabels.type,
       "confidence": currentLabels.confidence
     }
   } 
