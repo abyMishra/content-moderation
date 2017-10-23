@@ -21,6 +21,7 @@ var workerAnswers = {};
 function prepImg() {
   currentImg = imgs[current];
   currentImgSrc = "../../images/" + currentImg + ".jpg";
+  $("img").first().attr("src", currentImgSrc);
   
   $("#counter").text(current + 1);
 
@@ -35,7 +36,5 @@ function prepImg() {
     $("#confidenceRange").val(3);
   }
   setConfidenceLabel();
-
-  loadImage();
 }
 
