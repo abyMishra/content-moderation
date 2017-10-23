@@ -25,6 +25,8 @@ var workerAnswers = {};
 })("imgs");
 
 function prepImg() {
+  $(".jqImgBlurPic").first().remove();
+
   currentImg = imgs[current];
   currentImgSrc = "../../images/" + currentImg + ".jpg";
   $("img").first().attr("src", currentImgSrc);

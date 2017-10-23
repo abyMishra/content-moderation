@@ -76,11 +76,11 @@
 		
         var imgLoadFun = function(el) {
 			var imageSrc = $(el).prop("src");
-			var w = $(el).width();
-			var h = $(el).height();
+			var w = $("#left").width();
+			var h = $("#left").height();
 			var html = $('<div class="jqImgBlurPic" style="width:'+ w + 'px;height:' + h + 'px">'
 					+ '    <svg class="blur" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="'+ w + '" height="' + h + '">'
-					+ '      <image  filter="url(#filter2)" xlink:href="'+ imageSrc+ '" width="100%" height="100%"></image>'
+					+ '      <image filter="url(#filter2)" xlink:href="'+ imageSrc+ '" width="100%" height="100%"></image>'
 					+ '      <filter id="filter2">'
 					+ '        <feGaussianBlur stdDeviation="'+ defOptns.stdDeviation + '" />'
 					+'         <feComponentTransfer>'+

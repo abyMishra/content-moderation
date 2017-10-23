@@ -60,7 +60,7 @@ td {
   padding: 10px;
 }
 
-img {
+img, image, svg, .jqImgBlurPic {
   max-width: 100%;
   max-height: 100%;
   min-width: 50%;
