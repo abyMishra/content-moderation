@@ -22,9 +22,10 @@ function prepImg() {
   currentImg = imgs[current];
   currentImgSrc = "../../images/" + currentImg + ".jpg";
   $("img").first().attr("src", currentImgSrc);
-  
+ 
   $("#counter").text(current + 1);
-
+  shuffleInputs();	
+  
   var prevAnswers = workerAnswers[currentImg];
   if (prevAnswers && prevAnswers !== "error") {
     $("input[name=category][value='" + prevAnswers.category + "']").prop("checked", true);

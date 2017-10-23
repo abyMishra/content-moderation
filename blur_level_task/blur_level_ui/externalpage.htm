@@ -1,4 +1,7 @@
 <!-- This file needs to be hosted on an external server.  -->
+
+<!DOCTYPE html>
+
 <html>
 
 <link rel='stylesheet' type='text/css' href='css/style.css'>
@@ -34,13 +37,13 @@ function decode(strToDecode) {
 
 <div id='instructions'>
 
-<p><b class='important'>Instructions:</b> A smart computer is trying to decide if an image is allowable on Facebook or not. Your job is to help the computer by telling it which category the image best falls under:
+<p><b class='important'>Instructions:</b> A smart computer is trying to decide if an image is allowable on Facebook or not. Your job is to help the computer by telling it which category the image best falls under:</p>
 <ul>
   <li><b>Pornography:</b> Does the image display pornography, nudity, or overly sexual themes?</li>
   <li><b>Violence:</b> Does this image display execessive violence, torture, gore, blood, or injury towards a person or animal?</li>
   <li><b>Safe for work (SFW):</b> Is this an image you would be comfortable showing to a 10 year old? Is this an image you can show to your boss and coworkers without getting in trouble?</li>
 </ul>
-Categorize the image to the best of your judgement, determine if it is realistic, and indicate how confident you are in your answer using the slider bar. Press the <b>< Prev</b> and <b>Next ></b> buttons to navigate between images. If the image does not load, click the red button. However, <span class='important'>if you skip too many images, your work will be rejected; if too many images do not load, please DO NOT complete the task</span>. Once you have reached the last image, press <b>Next ></b> to optionally provide feedback and submit your work.
+<p>Categorize the image to the best of your judgement, determine if it is realistic, and indicate how confident you are in your answer using the slider bar. Press the <b>&lt; Prev</b> and <b>Next ></b> buttons to navigate between images. If the image does not load, click the red button. However, <span class='important'>if you skip too many images, your work will be rejected; if too many images do not load, please DO NOT complete the task</span>. Once you have reached the last image, press <b>Next ></b> to optionally provide feedback and submit your work.
 </p>
 
 </div>
@@ -50,26 +53,30 @@ Categorize the image to the best of your judgement, determine if it is realistic
 <div id='task' class='section'>
 
 <table id='grid'>
+  <tr>
   <td id='left'>
     <img src='' alt=''>
   </td>
   <td id='right'>
     <div>
       <b>1. What category best describes this image?</b><br><br>
-      <form action=''>
+      <div id='categories'>
+	<!--
         <input type='radio' name='category' value='pornography'> Pornography<br>
         <input type='radio' name='category' value='violence'> Violence<br>
         <input type='radio' name='category' value='sfw'> Safe for work (SFW)<br>
-      </form>
+	-->
+      </div>
     </div><br>
     <div>
       <b>2. Does this image look like there is a real person or animal in it?</b><br><br>
-      <form action=''>
+      <div id='types'>
+	<!--
         <input type='radio' name='type' value='realistic'> Yes<br>
         <input type='radio' name='type' value='synthetic'> No<br>
-      </form>
+	-->
+      </div>
     </div><br>
-    <div>
     <div>
       <b>3. How confident are you in your answer?</b>
       <table>
@@ -80,7 +87,7 @@ Categorize the image to the best of your judgement, determine if it is realistic
     <div>
       <table id='navButtons'>
         <tr>
-          <td><button type='button' id='prev' class='nav'>< Prev</button></td>
+          <td><button type='button' id='prev' class='nav'>&lt; Prev</button></td>
           <td><button type='button' id='issue' class='nav'>Image did<br>not load</button></td>
           <td><button type='button' id='next' class='nav'>Next ></button></td>
           <td><span id='counter'></span>&nbsp;/ <span id='total'></span></td>
@@ -88,6 +95,7 @@ Categorize the image to the best of your judgement, determine if it is realistic
       </table>
     </div>
   </td>
+  </tr>
 </table>
 </div>
 
@@ -113,6 +121,7 @@ Categorize the image to the best of your judgement, determine if it is realistic
 </form>
 
 <script src='js/rangeSlider.js'></script>
+<script src='js/shuffleInputs.js'></script>
 <script src='js/main.js'></script>
 <script src='js/nav.js'></script>
 
