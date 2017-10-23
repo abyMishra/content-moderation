@@ -13,8 +13,14 @@ var workerAnswers = {};
   if(results != null) {
     imgs = results[1].split(",");
     currentImg = imgs[current];
+    
     $("#total").text(imgs.length);
     prepImg();
+
+    var blurOptns = {
+      stdDeviation : 7,
+    };
+    $("img").first().jqImgBlur(blurOptns);
   }
 })("imgs");
 
