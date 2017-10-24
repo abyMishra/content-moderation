@@ -3,6 +3,9 @@ var current = 0;
 var currentImg = -1;
 var currentLabels = {};
 var workerAnswers = {};
+var blurOptns = {
+  stdDeviation : 7,
+};
 
 (function(key) {
   var regexS = "[\\?&]" + key + "=([^&#]*)";
@@ -16,11 +19,6 @@ var workerAnswers = {};
 
     $("#total").text(imgs.length);
     prepImg();
-
-    var blurOptns = {
-      stdDeviation : 7,
-    };
-    $("img").first().jqImgBlur(blurOptns);
   }
 })("imgs");
 
@@ -30,6 +28,7 @@ function prepImg() {
   currentImg = imgs[current];
   currentImgSrc = "../../images/" + currentImg + ".jpg";
   $("img").first().attr("src", currentImgSrc);
+  $("img").first().jqImgBlur(blurOptns);
 
   $("#counter").text(current + 1);
   shuffleInputs();
