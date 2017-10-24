@@ -13,7 +13,7 @@ var workerAnswers = {};
   if(results != null) {
     imgs = results[1].split(",");
     currentImg = imgs[current];
-    
+
     $("#total").text(imgs.length);
     prepImg();
 
@@ -30,10 +30,10 @@ function prepImg() {
   currentImg = imgs[current];
   currentImgSrc = "../../images/" + currentImg + ".jpg";
   $("img").first().attr("src", currentImgSrc);
- 
+
   $("#counter").text(current + 1);
-  shuffleInputs();	
-  
+  shuffleInputs();
+
   var prevAnswers = workerAnswers[currentImg];
   if (prevAnswers && prevAnswers !== "error") {
     $("input[name=category][value='" + prevAnswers.category + "']").prop("checked", true);
