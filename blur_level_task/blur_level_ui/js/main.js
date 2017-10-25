@@ -19,6 +19,8 @@ var blurOptns = {
 
     $("#total").text(imgs.length);
     prepImg();
+
+    $("img").first().jqImgBlur(blurOptns);
   }
 })("imgs");
 
@@ -28,7 +30,6 @@ function prepImg() {
   currentImg = imgs[current];
   currentImgSrc = "../../images/" + currentImg + ".jpg";
   $("img").first().attr("src", currentImgSrc);
-  $("img").first().jqImgBlur(blurOptns);
 
   $("#counter").text(current + 1);
   shuffleInputs();
