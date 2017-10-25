@@ -4,7 +4,7 @@ var currentImg = -1;
 var currentLabels = {};
 var workerAnswers = {};
 var blurOptns = {
-  stdDeviation : 7,
+  stdDeviation : 0,
 };
 
 (function(key) {
