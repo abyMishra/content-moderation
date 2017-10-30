@@ -24,7 +24,13 @@ $(document).ready(function() {
     }
   });
 
-  $("#submitButton").click(function() {
+  $("#submitButton").click(function(e) {
+    var code = $("textarea").val().trim();
+    if (code === "") {
+      e.preventDefault();
+      alert("Please make sure you have completed the survey and pasted the unique code.");
+    }
+
     $("input[type=radio], #confidenceRange").remove();
 
     $("<input />")
