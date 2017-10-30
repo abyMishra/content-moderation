@@ -28,7 +28,7 @@ function prepImg() {
   $(".jqImgBlurPic").first().remove();
 
   currentImg = imgs[current];
-  currentImgSrc = "../../images/" + currentImg + ".jpg";
+  currentImgSrc = "https://s3-us-west-2.amazonaws.com/budang-moderation/" + currentImg + ".jpg";
   $("img").first().attr("src", currentImgSrc);
 
   $("#counter").text(current + 1);
