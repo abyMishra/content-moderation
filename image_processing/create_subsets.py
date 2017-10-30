@@ -23,13 +23,14 @@ for name, label in dataset.items():
         sfw.append(name)
 
 # shuffle images
-shuffle(pornography)
-shuffle(violence)
-shuffle(sfw)
+for i in range(3):
+    shuffle(pornography)
+    shuffle(violence)
+    shuffle(sfw)
 
 # violence/pornography split
-violence_split = len(violence)
-pornography_split = 300 - violence_split
+violence_split = 175
+pornography_split = 125
 
 # subset size and n/sfw split
 sfw_split = 200
