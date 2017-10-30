@@ -44,7 +44,7 @@ function decode(strToDecode) {
   <li><b>Violence:</b> Does this image display excessive violence, torture, gore, blood, or injury towards a person or animal?</li>
   <li><b>Safe for work (SFW):</b> Is this an image you would be comfortable showing to a 10 year old? Is this an image you can show to your boss and coworkers without getting in trouble?</li>
 </ul>
-<p>Categorize the image to the best of your judgement, determine if it is realistic, and indicate how confident you are in your answer using the slider bar. Press the <b>&lt; Prev</b> and <b>Next ></b> buttons to navigate between images. If the image does not load, click the red button. However, <span class='important'>if you skip too many images, your work will be rejected; if too many images do not load, please DO NOT complete the task</span>. Once you have reached the last image, press <b>Next ></b> to optionally provide feedback and submit your work.
+<p>Categorize the image to the best of your judgement and answer the subsequent questions. Press the <b>&lt; Prev</b> and <b>Next ></b> buttons to navigate between images. If the image does not load, click the red button. However, <span class='important'>if you skip too many images, your work will be rejected; if too many images do not load, please DO NOT complete the task</span>. Once you have reached the last image, press <b>Next ></b> to take a brief survey and submit your work.
 </p>
 
 </div>
@@ -84,14 +84,23 @@ function decode(strToDecode) {
         <tr><td><input id='confidenceRange' type='range' name='confidence' min='1' max='5'></td></tr>
         <tr><td><p id='confidenceLabel'></p></td></tr>
       </table>
+    </div><br> 
+    <div>
+      <b>4. Would you personally approve this image to be posted on Facebook?</b><br><br>
+      <div id='approval'>
+        <!--
+        <input type='radio' name='approval' value='approve'> Yes<br>
+        <input type='radio' name='approval' value='disapprove'> No<br>
+        -->
+      </div>
     </div><br>
-    <!-- Would you personally approve this image to be published on Facebook? -->
+ 
     <div>
       <table id='navButtons'>
         <tr>
           <td><button type='button' id='prev' class='nav'>&lt; Prev</button></td>
           <td><button type='button' id='issue' class='nav'>Image did<br>not load</button></td>
-          <td><button type='button' id='next' class='nav'>Next ></button></td>
+          <td><button type='button' id='next' class='nav'>Next &gt;</button></td>
           <td><span id='counter'></span>&nbsp;/ <span id='total'></span></td>
         </tr>
       </table>

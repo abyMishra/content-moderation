@@ -37,10 +37,13 @@ $(document).ready(function() {
   function checkAnswers() {
     var category = $("input[name=category]:checked").val();
     var type = $("input[name=type]:checked").val();
+    var approval = $("input[name=approval]:checked").val();
     
-    if (category && type) {
+    if (category && type && approval) {
       currentLabels.category = category;
       currentLabels.type = type;
+      currentLabels.confidence = parseInt($("#confidenceRange").val());
+      currentLabels.approval = approval;
       return true;
     }
 
@@ -55,7 +58,7 @@ $(document).ready(function() {
     if (error)
       workerAnswers[currentImg] = "error";
     else
-      saveLabels();
+      workerAnswers[currentImg] = Object.create(currentLabels);
 
     if (current == imgs.length - 1) {
       $("#feedback").css("display", "block");
@@ -65,15 +68,5 @@ $(document).ready(function() {
     current += 1;
     prepImg();
   }
-
-  function saveLabels() {
-    currentLabels.confidence = parseInt($("#confidenceRange").val());
-
-    workerAnswers[currentImg] = {
-      "category": currentLabels.category,
-      "type": currentLabels.type,
-      "confidence": currentLabels.confidence
-    }
-  } 
 });
 
