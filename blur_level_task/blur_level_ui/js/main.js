@@ -4,7 +4,7 @@ var currentImg = -1;
 var currentLabels = {};
 var workerAnswers = {};
 var blurOptns = {
-  stdDeviation : 0,
+  stdDeviation: 7,
 };
 
 (function(key) {
@@ -13,7 +13,7 @@ var blurOptns = {
   var tmpURL = window.location.href;
   tmpURL = decodeURIComponent(tmpURL);
   var results = regex.exec(tmpURL);
-  if(results != null) {
+  if (results != null) {
     imgs = results[1].split(",");
     currentImg = imgs[current];
 
@@ -23,6 +23,13 @@ var blurOptns = {
     $("img").first().jqImgBlur(blurOptns);
   }
 })("imgs");
+
+$(document).ready(function() {
+  $(".accordion").accordion({
+    collapsible: true,
+    active: false
+  });
+});
 
 function prepImg() {
   $(".jqImgBlurPic").first().remove();

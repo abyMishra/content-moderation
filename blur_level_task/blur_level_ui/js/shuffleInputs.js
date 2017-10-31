@@ -1,9 +1,9 @@
 var categories =
-  ["<input type='radio' name='category' value='pornography'> Pornography<br>", 
-  "<input type='radio' name='category' value='violence'> Violence<br>", 
-  "<input type='radio' name='category' value='sfw'> Safe for work (SFW)<br>"];
+  ["<input type='radio' name='category' value='pornography'> Pornography<br>",
+  "<input type='radio' name='category' value='violence'> Violence / Gore<br>",
+  "<input type='radio' name='category' value='safe'> Safe for general audiences<br>"];
 
-var types = 
+var types =
   ["<input type='radio' name='type' value='realistic'> Yes<br>",
   "<input type='radio' name='type' value='synthetic'> No<br>"];
 
