@@ -1,25 +1,28 @@
 (function($) {
   $.fn.jqImgBlur = function(options) {
+    if (options.stdDeviation && options.stdDeviation === 0)
+      return;
+
     var svgNS = "http://www.w3.org/2000/svg";
     var defOptns = {
-      stdDeviation : 7,
-      brightness : 0.5,
-      scircles : [],
-      srectangles : [],
-      sellipses : [],
-      spaths : [],
-      spolygons : [],
-      stexts : [],
-      sintros : {
-        intromode:false,
-        scircles : [],
-        srectangles : [],
-        sellipses : [],
-        spaths : [],
-        spolygons : [],
-        stexts : []
+      stdDeviation: 7,
+      brightness: 0.5,
+      scircles: [],
+      srectangles: [],
+      sellipses: [],
+      spaths: [],
+      spolygons: [],
+      stexts: [],
+      sintros: {
+        intromode: false,
+        scircles: [],
+        srectangles: [],
+        sellipses: [],
+        spaths: [],
+        spolygons: [],
+        stexts: []
       },
-      smouseover : {
+      smouseover: {
         delay:300
       }
     };
@@ -27,7 +30,7 @@
     $.extend(true, defOptns, options);
 
     var makeCircle = function(cInfo) {
-      var circle = document.createElementNS(svgNS,"circle");
+      var circle = document.createElementNS(svgNS, "circle");
       circle.setAttribute("cx", cInfo.cx);
       circle.setAttribute("cy", cInfo.cy);
       circle.setAttribute("r", cInfo.r);
@@ -37,7 +40,7 @@
     };
 
     var makeRectangle = function(cInfo) {
-      var rect = document.createElementNS(svgNS,"rect");
+      var rect = document.createElementNS(svgNS, "rect");
       rect.setAttribute("x", cInfo.x);
       rect.setAttribute("y", cInfo.y);
       rect.setAttribute("width", cInfo.width);
@@ -48,7 +51,7 @@
     };
 
     var makeEllipse = function(cInfo) {
-      var ellipse = document.createElementNS(svgNS,"ellipse");
+      var ellipse = document.createElementNS(svgNS, "ellipse");
       ellipse.setAttribute("cx", cInfo.cx);
       ellipse.setAttribute("cy", cInfo.cy);
       ellipse.setAttribute("rx", cInfo.rx);
@@ -59,7 +62,7 @@
     };
 
     var makePath = function(cInfo) {
-      var path = document.createElementNS(svgNS,"path");
+      var path = document.createElementNS(svgNS, "path");
       path.setAttribute("d", cInfo.d);
       path.setAttribute("fill", "white");
       path.style.opacity = '1';
@@ -67,7 +70,7 @@
     };
 
     var makePolygon = function(cInfo) {
-      var path = document.createElementNS(svgNS,"polygon");
+      var path = document.createElementNS(svgNS, "polygon");
       path.setAttribute("points", cInfo.points);
       path.setAttribute("fill", "white");
       path.style.opacity = '1';
@@ -224,6 +227,8 @@
       } else if (defOptns.smouseover.ellipse !== undefined) {
         shape = 'ellipse';
         cInfo = defOptns.smouseover.ellipse;
+      } else {
+        return;
       }
       $(html).mousemove(function(event) {
         event.preventDefault();
