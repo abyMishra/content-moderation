@@ -43,12 +43,13 @@ $(document).ready(function() {
   function checkAnswers() {
     var category = $("input[name=category]:checked").val();
     var type = $("input[name=type]:checked").val();
+    var confidence = $("input[name=confidence]:checked").val();
     var approval = $("input[name=approval]:checked").val();
-    
-    if (category && type && approval) {
+
+    if (category && type && confidence && approval) {
       currentLabels.category = category;
       currentLabels.type = type;
-      currentLabels.confidence = parseInt($("#confidenceRange").val());
+      currentLabels.confidence = confidence;
       currentLabels.approval = approval;
       return true;
     }

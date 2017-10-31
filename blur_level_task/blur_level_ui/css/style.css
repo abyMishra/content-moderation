@@ -27,7 +27,7 @@ p, ol {
 
 ul {
   padding-left: 20px;
-  padding-right: 20px; 
+  padding-right: 20px;
   font-size: 16px;
 }
 
@@ -67,24 +67,16 @@ img, image, svg, .jqImgBlurPic {
   min-height: 50%;
 }
 
-#confidenceLabel {
+#confidence {
   text-align: center;
 }
 
-#navButtons {
-  text-align: center;
-}
-
-#issue {
-  background-color: red;
-  color: white;
+#confidence td {
+  padding: 0px;
 }
 
 .nav {
-  height: 54px;
-  padding: 8px 32px;
-  text-align: center;
-  font-size: 16px;
+  height: 54px
 }
 
 #modal button {
@@ -107,7 +99,3 @@ img, image, svg, .jqImgBlurPic {
   margin: 5px;
 }
 
-#submit-cancel {
-  background-color: Red;
-  color: White;
-}

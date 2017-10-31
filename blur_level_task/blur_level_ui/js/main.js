@@ -4,7 +4,7 @@ var currentImg = -1;
 var currentLabels = {};
 var workerAnswers = {};
 var blurOptns = {
-  stdDeviation: 7,
+  stdDeviation: 20,
 };
 
 (function(key) {
@@ -38,6 +38,8 @@ function prepImg() {
   currentImgSrc = "https://s3-us-west-2.amazonaws.com/budang-moderation/" + currentImg + ".jpg";
   $("img").first().attr("src", currentImgSrc);
 
+  // $("img").first().jqImgBlur(blurOptns);
+
   $("#counter").text(current + 1);
   shuffleInputs();
 
@@ -47,14 +49,13 @@ function prepImg() {
   if (prevAnswers && prevAnswers !== "error") {
     $("input[name=category][value='" + prevAnswers.category + "']").prop("checked", true);
     $("input[name=type][value='" + prevAnswers.type + "']").prop("checked", true);
-    $("#confidenceRange").val(prevAnswers.confidence);
+    $("input[name=confidence][value='" + prevAnswers.confidence + "']").prop("checked", true);
     $("input[name=approval][value='" + prevAnswers.approval + "']").prop("checked", true);
   } else {
     $("input[name=category]").prop("checked", false);
     $("input[name=type]").prop("checked", false);
-    $("#confidenceRange").val(3);
+    $("input[name=confidence]").prop("checked", false);
     $("input[name=approval]").prop("checked", false);
   }
-  setConfidenceLabel();
 }
 
