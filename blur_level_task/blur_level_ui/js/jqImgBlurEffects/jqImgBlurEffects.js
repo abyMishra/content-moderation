@@ -96,6 +96,7 @@
           + '      <image xlink:href="'+ imageSrc+ '" width="100%" height="100%" mask="url(#mask1)"></image>'
           + '    </svg>' + '  </div>');
       $(el).css('display', 'none');
+      $(".jqImgBlurPic").remove();
       $(html).insertAfter(el);
       var pic = $(html).find(".blur")[0];
       var mask = $(html).find("#mask1")[0];
@@ -142,7 +143,7 @@
       }
     };
 
-    var introFun = function(intros,mask,html) {
+    var introFun = function(intros, mask, html) {
     var cInfo;
     var shapeElm;
     var descText;
@@ -215,7 +216,7 @@
       }
     };
 
-    var mouseOverFun = function(mask,html,rect) {
+    var mouseOverFun = function(mask, html, rect) {
       var cInfo;
       var shape = '';
       if (defOptns.smouseover.circle !== undefined) {
@@ -262,7 +263,7 @@
       });
     };
 
-    var clickFun = function(mask,html,rect) {
+    var clickFun = function(mask, html, rect) {
       var cInfo;
       var shape = '';
       if (defOptns.sclick.circle !== undefined) {

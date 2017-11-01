@@ -19,8 +19,6 @@ var blurOptns = {
 
     $("#total").text(imgs.length);
     prepImg();
-
-    $("img").first().jqImgBlur(blurOptns);
   }
 })("imgs");
 
@@ -32,13 +30,13 @@ $(document).ready(function() {
 });
 
 function prepImg() {
-  $(".jqImgBlurPic").first().remove();
-
   currentImg = imgs[current];
   currentImgSrc = "https://s3-us-west-2.amazonaws.com/budang-moderation/" + currentImg + ".jpg";
-  $("img").first().attr("src", currentImgSrc);
 
-  // $("img").first().jqImgBlur(blurOptns);
+  $(".jqImgBlurPic").remove();
+  $("#pic")
+    .attr("src", currentImgSrc)
+    .jqImgBlur(blurOptns);
 
   $("#counter").text(current + 1);
   shuffleInputs();
