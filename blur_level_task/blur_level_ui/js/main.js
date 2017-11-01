@@ -33,7 +33,6 @@ function prepImg() {
   currentImg = imgs[current];
   currentImgSrc = "https://s3-us-west-2.amazonaws.com/budang-moderation/" + currentImg + ".jpg";
 
-  $(".jqImgBlurPic").remove();
   $("#pic")
     .attr("src", currentImgSrc)
     .jqImgBlur(blurOptns);
