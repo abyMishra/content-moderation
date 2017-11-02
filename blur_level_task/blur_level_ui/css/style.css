@@ -67,12 +67,25 @@ img, image, svg, .jqImgBlurPic {
   min-height: 50%;
 }
 
+.question {
+  padding-bottom: 8px;
+}
+
+.question b {
+  padding-bottom: 5px;
+}
+
 #confidence {
   text-align: center;
 }
 
 #confidence td {
   padding: 0px;
+}
+
+#rationale textarea {
+  width: 100%;
+  height: 75px;
 }
 
 .nav {

@@ -45,12 +45,14 @@ $(document).ready(function() {
     var type = $("input[name=type]:checked").val();
     var confidence = $("input[name=confidence]:checked").val();
     var approval = $("input[name=approval]:checked").val();
+    var rationale = $("textarea[name=rationale]").val();
 
     if (category && type && confidence && approval) {
       currentLabels.category = category;
       currentLabels.type = type;
       currentLabels.confidence = confidence;
       currentLabels.approval = approval;
+      currentLabels.rationale = rationale;
       return true;
     }
 

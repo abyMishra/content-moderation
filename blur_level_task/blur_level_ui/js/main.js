@@ -48,11 +48,13 @@ function prepImg() {
     $("input[name=type][value='" + prevAnswers.type + "']").prop("checked", true);
     $("input[name=confidence][value='" + prevAnswers.confidence + "']").prop("checked", true);
     $("input[name=approval][value='" + prevAnswers.approval + "']").prop("checked", true);
+    $("textarea[name=rationale]").val(prevAnswers.rationale);
   } else {
     $("input[name=category]").prop("checked", false);
     $("input[name=type]").prop("checked", false);
     $("input[name=confidence]").prop("checked", false);
     $("input[name=approval]").prop("checked", false);
+    $("textarea[name=rationale]").val("");
   }
 }
 

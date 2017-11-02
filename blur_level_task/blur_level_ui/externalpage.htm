@@ -62,7 +62,7 @@ function decode(strToDecode) {
     <img id='pic' src='' alt=''>
   </td>
   <td id='right'>
-    <div>
+    <div class='question'>
       <b>1. What category best describes this image?</b><br>
       <div id='categories'>
         <!--
@@ -71,8 +71,8 @@ function decode(strToDecode) {
         <input type='radio' name='category' value='safe'> Safe for general audiences<br>
         -->
       </div>
-    </div><br>
-    <div>
+    </div>
+    <div class='question'>
       <b>2. Does this image look like a photograph?</b><br>
       <div id='types'>
         <!--
@@ -80,8 +80,8 @@ function decode(strToDecode) {
         <input type='radio' name='type' value='synthetic'> No<br>
         -->
       </div>
-    </div><br>
-    <div>
+    </div>
+    <div class='question'>
       <b>3. How confident are you in your answers for Questions 1 and 2?</b><br>
       <div id='confidence'>
         <table>
@@ -101,8 +101,8 @@ function decode(strToDecode) {
           </tr>
         </table>
       </div>
-    </div><br>
-    <div>
+    </div>
+    <div class='question'>
       <b>4. Would you personally approve this image to be posted on Facebook?</b><br>
       <div id='approval'>
         <!--
@@ -110,7 +110,13 @@ function decode(strToDecode) {
         <input type='radio' name='approval' value='disapprove'> No<br>
         -->
       </div>
-    </div><br>
+    </div>
+    <div class='question'>
+      <b>5. [OPTIONAL] Please explain your answer choices.</b><br>
+      <div id='rationale'>
+        <textarea name='rationale'></textarea>
+      </div>
+    </div>
 
     <div>
       <table id='navButtons'>
