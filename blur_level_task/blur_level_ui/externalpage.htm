@@ -5,7 +5,7 @@
 <html>
 
 <link rel='stylesheet' href='http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css'>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel='stylesheet' type='text/css' href='css/style.css'>
 <link rel='stylesheet' type='text/css' href='css/modal.css'>
 
@@ -42,13 +42,13 @@ function decode(strToDecode) {
 <div id='instructions' class='accordion'>
 
 <h3>INSTRUCTIONS</h3>
-<div><p>A smart computer is trying to decide if an image is allowable on Facebook or not. Your job is to help the computer by telling it which category the image best falls under:</p>
+<div><p>We are researchers at the University of Texas interested in making the Internet a better place. Please view each image carefully and answer its corresponding questions to the best of your ability. When you are done, you will be asked to take a survey and will be provided a secret key to submit. The image categories are as follows:</p>
 <ul>
   <li><b>Pornography:</b> Does the image display pornography, nudity, or overly sexual themes?</li>
   <li><b>Violence / Gore:</b> Does this image display excessive violence, torture, gore, blood, or injury towards a person or animal?</li>
   <li><b>Safe for general audiences:</b> Is this an image you would be comfortable showing to a 10 year old? Is this an image you can show to your boss and coworkers without getting in trouble?</li>
 </ul>
-<p>Press the <b>&lt; Prev</b> and <b>Next ></b> buttons to navigate between images. If the image does not load, click the red <b>Image did not load</b> button. Once you have reached the last image, press <b>Next ></b> to take a brief survey and submit your work.</p></div>
+<p>Press the <b>&lt; Prev</b> and <b>Next ></b> buttons to navigate between images. If the image does not load, click the red <b>Image did not load</b> button. Once you have reached the last image, press <b>Next ></b> to continue to the survey.</p></div>
 
 </div>
 
@@ -63,7 +63,7 @@ function decode(strToDecode) {
   </td>
   <td id='right'>
     <div>
-      <b>1. What category best describes this image?</b><br><br>
+      <b>1. What category best describes this image?</b><br>
       <div id='categories'>
         <!--
         <input type='radio' name='category' value='pornography'> Pornography<br>
@@ -73,7 +73,7 @@ function decode(strToDecode) {
       </div>
     </div><br>
     <div>
-      <b>2. Does this image look like a photograph?</b><br><br>
+      <b>2. Does this image look like a photograph?</b><br>
       <div id='types'>
         <!--
         <input type='radio' name='type' value='realistic'> Yes<br>
@@ -82,7 +82,7 @@ function decode(strToDecode) {
       </div>
     </div><br>
     <div>
-      <b>3. How confident are you in your answers for Questions 1 and 2?</b><br><br>
+      <b>3. How confident are you in your answers for Questions 1 and 2?</b><br>
       <div id='confidence'>
         <table>
           <tr>
@@ -103,7 +103,7 @@ function decode(strToDecode) {
       </div>
     </div><br>
     <div>
-      <b>4. Would you personally approve this image to be posted on Facebook?</b><br><br>
+      <b>4. Would you personally approve this image to be posted on Facebook?</b><br>
       <div id='approval'>
         <!--
         <input type='radio' name='approval' value='approve'> Yes<br>
@@ -137,7 +137,7 @@ function decode(strToDecode) {
     <tr><td><textarea name='survey' placeholder='Enter your unique survey code here...'></textarea></td></tr>
     <tr>
       <td><input id='submitButton' class='btn btn-success' type='submit' name='Submit' value='Submit'>
-      <button id='submit-cancel' class='btn btn-warning' type='button'>Go back</button></td>
+      <button id='submit-cancel' class='btn btn-secondary' type='button'>Go back</button></td>
     </tr>
   </table>
 </div>
