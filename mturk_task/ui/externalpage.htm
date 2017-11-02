@@ -4,7 +4,19 @@
 
 <html>
 
-<link rel='stylesheet' href='http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css'>
+<!-- http://uniqueturker.myleott.com/ -->
+<script src='https://uniqueturker.myleott.com/lib.js' type='text/javascript'></script>
+<script type="text/javascript">
+(function(){
+    var ut_id = "931cd27957d987d03758efab848a07c4";
+    if (UTWorkerLimitReached(ut_id)) {
+        document.getElementById('mturk_form').style.display = 'none';
+        document.getElementsByTagName('body')[0].innerHTML = "You have already completed the maximum number of HITs allowed by this requester. Please click 'Return HIT' to avoid any impact on your approval rating.";
+    }
+})();
+</script>
+
+<link rel='stylesheet' href='https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel='stylesheet' type='text/css' href='css/style.css'>
 <link rel='stylesheet' type='text/css' href='css/modal.css'>
@@ -13,7 +25,11 @@
 <script src='https://code.jquery.com/jquery-1.12.4.js'></script>
 <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
 <script src='js/jqImgBlurEffects/jqImgBlurEffects.js'></script>
-<!--<script src='js/turkey-lite/js/turkey-lite.js'></script>-->
+
+<!-- https://github.com/budang/turkey-lite -->
+<!--<script src='https://cdn.rawgit.com/budang/turkey-lite/48dc246c/js/turkey-lite.js'></script>-->
+<script src='https://rawgit.com/budang/turkey-lite/master/js/turkey-lite-dev.js'></script>
+
 <script language='Javascript'>
 // This method Gets URL Parameters (GUP)
 function gup(name) {
@@ -42,7 +58,7 @@ function decode(strToDecode) {
 <div id='instructions' class='accordion'>
 
 <h3>INSTRUCTIONS</h3>
-<div><p>We are researchers at the University of Texas interested in making the Internet a better place. Please view each image carefully and answer its corresponding questions to the best of your ability. When you are done, you will be asked to take a survey and will be provided a secret key to submit. The image categories are as follows:</p>
+<div><p>We are researchers at the University of Texas studying content moderation with the goal of making the Internet a better place. Please view each image carefully and answer its corresponding questions to the best of your ability. When you are done, you will be asked to take a survey and will be provided a secret key to submit. <span class='important'> Please complete this HIT only once. All subsequent submissions will be rejected.</span> The image categories are as follows:</p>
 <ul>
   <li><b>Pornography:</b> Does the image display pornography, nudity, or overly sexual themes?</li>
   <li><b>Violence / Gore:</b> Does this image display excessive violence, torture, gore, blood, or injury towards a person or animal?</li>
