@@ -28,6 +28,7 @@ for category, count in counts.items():
     print('{}\t\t{}'.format(category, count))
 
 # save labels to json
-with open('true_labels.json', 'w') as handle:
-    json.dump(labels, handle)
+with open('labels.json', 'w') as handle:
+    json.dump(labels, handle, sort_keys=True,
+              indent=4, separators=(',',': '))
 
