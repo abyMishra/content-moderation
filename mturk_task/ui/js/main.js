@@ -24,8 +24,7 @@ var blurOptns = {
 
 $(document).ready(function() {
   $(".accordion").accordion({
-    collapsible: true,
-    active: true
+    collapsible: true
   });
 });
 
