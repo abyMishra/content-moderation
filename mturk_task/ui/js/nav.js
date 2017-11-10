@@ -15,23 +15,28 @@ $(document).ready(function() {
   });
 
   $("#submit-cancel").click(function() {
-    $("#feedback").css("display", "none");
+    $("#survey").css("display", "none");
   });
 
   $(window).click(function(event) {
-    if (event.target == $("#feedback")[0]) {
-      $("#feedback").css("display", "none");
+    if (event.target == $("#survey")[0]) {
+      $("#survey").css("display", "none");
+    }
+  });
+
+  $("#submitButton").prop("disabled", true);
+
+  $("textarea[name='survey']").keyup(function() {
+    if($(this).val().length > 0) {
+      $("#submitButton").attr("disabled", false);
+    }
+    else {
+      $("#submitButton").attr("disabled", true);
     }
   });
 
   $("#submitButton").click(function(e) {
-    var code = $("textarea").val().trim();
-    if (code === "") {
-      e.preventDefault();
-      alert("Please make sure you have completed the survey and pasted the unique code.");
-    }
-
-    $("input[type=radio], #confidenceRange").remove();
+    $("#task").remove();
 
     $("<input />")
       .attr("type", "hidden")
@@ -70,7 +75,7 @@ $(document).ready(function() {
       workerAnswers[currentImg] = Object.create(currentLabels);
 
     if (current == imgs.length - 1) {
-      $("#feedback").css("display", "block");
+      $("#survey").css("display", "block");
       return;
     }
 
