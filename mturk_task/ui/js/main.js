@@ -4,7 +4,12 @@ var currentImg = -1;
 var currentLabels = {};
 var workerAnswers = {};
 var blurOptns = {
-  stdDeviation: 20,
+  stdDeviation: 14,
+  sclick: {
+    circle: {
+      r: 50
+    }
+  }
 };
 
 (function(key) {
