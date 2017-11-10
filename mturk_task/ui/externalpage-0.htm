@@ -1,0 +1,199 @@
+<!-- This file needs to be hosted on an external server.  -->
+
+<!DOCTYPE html>
+
+<html>
+
+<!-- http://uniqueturker.myleott.com/ -->
+<script src='https://uniqueturker.myleott.com/lib.js' type='text/javascript'></script>
+<script type="text/javascript">
+(function(){
+    var ut_id = "931cd27957d987d03758efab848a07c4";
+    if (UTWorkerLimitReached(ut_id)) {
+        document.getElementById('mturk_form').style.display = 'none';
+        document.getElementsByTagName('body')[0].innerHTML = "You have already completed the maximum number of HITs allowed by this requester. Please click 'Return HIT' to avoid any impact on your approval rating.";
+    }
+})();
+</script>
+
+<link rel='stylesheet' href='https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel='stylesheet' type='text/css' href='css/style.css'>
+<link rel='stylesheet' type='text/css' href='css/modal.css'>
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js'></script>
+<script src='https://code.jquery.com/jquery-1.12.4.js'></script>
+<script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
+<script src='js/jqImgBlurEffects/jqImgBlurEffects.js'></script>
+
+<!-- https://github.com/budang/turkey-lite -->
+<script src='https://cdn.rawgit.com/budang/turkey-lite/3b71e095/js/turkey-lite-prod.js'></script>
+<!--<script src='https://rawgit.com/budang/turkey-lite/master/js/turkey-lite-dev.js'></script>-->
+
+<script language='Javascript'>
+// This method Gets URL Parameters (GUP)
+function gup(name) {
+  var regexS = '[\\?&]' + name + '=([^&#]*)';
+  var regex = new RegExp(regexS);
+  var tmpURL = window.location.href;
+  var results = regex.exec(tmpURL);
+  if (results == null)
+    return '';
+  else
+    return results[1];
+}
+
+// This method decodes the query parameters that were URL-encoded
+function decode(strToDecode) {
+  var encoded = strToDecode;
+  return unescape(encoded.replace(/\+/g,  ' '));
+}
+</script>
+
+<body>
+<form id='mturk_form' method='POST' action='https://www.mturk.com/mturk/externalSubmit'>
+
+<input type='hidden' id='assignmentId' name='assignmentId' value=''>
+
+<div id='instructions' class='accordion'>
+
+<h3>INSTRUCTIONS</h3>
+<div><p>We are researchers at the University of Texas at Austin studying content moderation with the goal of making the Internet a better place. Please review each image carefully and answer its corresponding questions to the best of your ability. When you are done, you will be asked to take a survey and will be provided a validation key to submit. <span class='important'> Please complete this HIT only once. All subsequent submissions will be rejected.</span> The image categories are as follows:</p>
+<ul>
+  <li><b>Pornography:</b> Does the image display pornography, nudity, or overly sexual themes?</li>
+  <li><b>Violence / Gore:</b> Does this image display excessive violence, torture, gore, blood, or injury towards a person or animal?</li>
+  <li><b>Safe for general audiences:</b> Is this an image you would be comfortable showing to a 10-year-old? Is this an image you can show to your boss and coworkers without getting in trouble?</li>
+</ul>
+<p>Press the <b>&lt; Prev</b> and <b>Next ></b> buttons to navigate between images. If the image does not load, click the red "<b>Image did not load</b>" button. Once you have reached the last image, press <b>Next ></b> to continue to the survey.</p></div>
+
+</div>
+
+<div>
+
+<div id='task' class='section'>
+
+<table id='grid'>
+  <tr>
+  <td id='left'>
+    <img id='pic' src='' alt=''>
+  </td>
+  <td id='right'>
+    <div class='question'>
+      <b>1. Which category <span class='important'>best</span> describes this image?</b><br>
+      <div id='categories'>
+        <!--
+        <input type='radio' name='category' value='pornography'> Pornography<br>
+        <input type='radio' name='category' value='violence'> Violence / Gore<br>
+        <input type='radio' name='category' value='safe'> Safe for general audiences<br>
+        -->
+      </div>
+    </div>
+    <div class='question'>
+      <b>2. Does this image look like a photograph of a real person or animal?</b><br>
+      <div id='types'>
+        <!--
+        <input type='radio' name='type' value='realistic'> Yes<br>
+        <input type='radio' name='type' value='synthetic'> No<br>
+        -->
+      </div>
+    </div>
+    <div class='question'>
+      <b>3. How confident are you in your answers for Questions 1 and 2?</b><br>
+      <div id='confidence'>
+        <table>
+          <tr>
+            <td><input type='radio' name='confidence' value='1'></td>
+            <td><input type='radio' name='confidence' value='2'></td>
+            <td><input type='radio' name='confidence' value='3'></td>
+            <td><input type='radio' name='confidence' value='4'></td>
+            <td><input type='radio' name='confidence' value='5'></td>
+          </tr>
+          <tr>
+            <td>Not at all</td>
+            <td>Not very</td>
+            <td>Somewhat</td>
+            <td>Very</td>
+            <td>Completely</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class='question'>
+      <b>4. As a moderator, would you personally approve this image to be posted on Facebook <span class='important'>unblurred?</span></b><br>
+      <div id='approval'>
+        <!--
+        <input type='radio' name='approval' value='approve'> Yes<br>
+        <input type='radio' name='approval' value='disapprove'> No<br>
+        -->
+      </div>
+    </div>
+    <div class='question'>
+      <b>5. [OPTIONAL] Please explain your answer choices.</b><br>
+      <div id='rationale'>
+        <textarea name='rationale'></textarea>
+      </div>
+    </div>
+
+    <div>
+      <table id='navButtons'>
+        <tr>
+          <td><button type='button' id='prev' class='nav btn btn-secondary btn-block'>&lt; Prev</button></td>
+          <td><button type='button' id='issue' class='nav btn btn-danger btn-block'>Image did<br>not load</button></td>
+          <td><button type='button' id='next' class='nav btn btn-primary btn-block'>Next &gt;</button></td>
+          <td><span id='counter'></span>&nbsp;/ <span id='total'></span></td>
+        </tr>
+      </table>
+    </div>
+  </td>
+  </tr>
+</table>
+</div>
+
+<div id='feedback' class='modal'>
+
+<div class='modal-content'>
+  <h3>Survey</h3>
+  <table>
+    <tr><td><a href='https://utexas.qualtrics.com/jfe/form/SV_56fmh5ppR418TaZ' target='_blank'>CLICK HERE TO TAKE THE SURVEY.</a> Remember to copy and paste the unique code at the end of the survey into the textbox below. To submit your work, please click the <b>Submit</b> button. To return to the task, press the <b>Go back</b> button.</td></tr>
+
+    <tr><td><textarea name='survey' placeholder='Enter your unique survey code here...'></textarea></td></tr>
+    <tr>
+      <td><input id='submitButton' class='btn btn-success' type='submit' name='Submit' value='Submit'>
+      <button id='submit-cancel' class='btn btn-secondary' type='button'>Go back</button></td>
+    </tr>
+  </table>
+</div>
+
+</div>
+
+</div>
+
+</form>
+
+<script language='Javascript'>
+var blurOptns = {
+  stdDeviation: 0
+};
+</script>
+<script src='js/shuffleInputs.js'></script>
+<script src='js/main.js'></script>
+<script src='js/nav.js'></script>
+
+<script language='Javascript'>
+$('#assignmentId').val(gup('assignmentId'));
+// Check if the worker is PREVIEWING the HIT or if they've ACCEPTED the HIT
+if (gup('assignmentId') == 'ASSIGNMENT_ID_NOT_AVAILABLE') {
+  // If we're previewing, disable the button and give it a helpful message
+  $('#submitButton').attr('disabled', true)
+  $('*').click(function(evt) {
+    evt.stopPropagation();
+    alert('Please accept the HIT before working on it.');
+  });
+} else {
+  if (document.referrer && (document.referrer.indexOf('workersandbox') != -1))
+    $('#mturk_form').attr('action', 'https://workersandbox.mturk.com/mturk/externalSubmit');
+}
+</script>
+
+</body>
+</html>

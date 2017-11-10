@@ -3,14 +3,6 @@ var current = 0;
 var currentImg = -1;
 var currentLabels = {};
 var workerAnswers = {};
-var blurOptns = {
-  stdDeviation: 14,
-  sclick: {
-    circle: {
-      r: 50
-    }
-  }
-};
 
 (function(key) {
   var regexS = "[\\?&]" + key + "=([^&#]*)";
