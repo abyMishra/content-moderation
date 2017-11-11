@@ -3,7 +3,7 @@ import json
 from random import sample, shuffle
 
 # get file names and labels
-with open('true_labels.json') as handle:
+with open('labels.json') as handle:
     dataset = json.load(handle)
 
 # bin images by category
