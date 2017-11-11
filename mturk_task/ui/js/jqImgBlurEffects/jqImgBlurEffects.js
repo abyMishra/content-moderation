@@ -131,15 +131,15 @@
       }
 
       if (defOptns.sintros !== undefined && defOptns.sintros.intromode) {
-          introFun(defOptns.sintros, mask,html);
+          introFun(defOptns.sintros, mask, html);
       }
 
       if (defOptns.smouseover !== undefined) {
-        mouseOverFun(mask,html,rect);
+        mouseOverFun(mask, html, rect);
       }
 
       if (defOptns.sclick !== undefined) {
-        clickFun(mask,html,rect);
+        clickFun(mask, html, rect);
       }
     };
 
@@ -286,8 +286,8 @@
           shapeElm.setAttribute("cy", upY);
           shapeElm.setAttribute("r", cInfo.r);
         } else if (shape === 'rect') {
-          shapeElm.setAttribute("x", upX-(cInfo.width/2));
-          shapeElm.setAttribute("y", upY-(cInfo.height/2));
+          shapeElm.setAttribute("x", upX - (cInfo.width / 2));
+          shapeElm.setAttribute("y", upY - (cInfo.height / 2));
           shapeElm.setAttribute("width", cInfo.width);
           shapeElm.setAttribute("height", cInfo.height);
         } else if (shape === 'ellipse') {
