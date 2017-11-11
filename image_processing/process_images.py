@@ -15,9 +15,9 @@ for dirname, dirnames, filenames in os.walk(path):
           os.remove(f)
 
         # generate random name
-        new_f = str(uuid.uuid4().hex)
+        new_f = str(uuid.uuid4().hex[:10])
         while new_f in names:
-            new_f = str(uuid.uuid4().hex)
+            new_f = str(uuid.uuid4().hex[:10])
         names.append(new_f)
         new_f += '.jpg'
 
