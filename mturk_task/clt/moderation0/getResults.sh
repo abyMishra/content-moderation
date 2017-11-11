@@ -16,6 +16,6 @@
 
 cd ../..
 cd bin
-./loadHITs.sh $1 $2 $3 $4 $5 $6 $7 $8 $9 -label ../image_classification_clt/annotation/task -input ../image_classification_clt/annotation/task.input -question ../image_classification_clt/annotation/task.question -properties ../image_classification_clt/annotation/task.properties 
+./getResults.sh $1 $2 $3 $4 $5 $6 $7 $8 $9 -successfile ../clt/moderation0/task.success -outputfile ../clt/moderation0/task.results
 cd ..
-cd image_classification_clt/annotation
+cd clt/moderation0

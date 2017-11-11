@@ -16,6 +16,6 @@
 
 cd ../..
 cd bin
-./deleteHITs.sh $1 $2 $3 $4 $5 $6 $7 $8 $9  -successfile ../image_classification_clt/annotation/task.success -approve -expire 
+./deleteHITs.sh $1 $2 $3 $4 $5 $6 $7 $8 $9  -successfile ../clt/moderation0/task.success -approve -expire 
 cd ..
-cd image_classification_clt/annotation
+cd clt/moderation0

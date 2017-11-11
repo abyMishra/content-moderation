@@ -17,6 +17,6 @@
 #!/usr/bin/env bash
 cd ../..
 cd bin
-./reviewResults.sh $1 $2 $3 $4 $5 $6 $7 $8 $9 -resultsfile ../image_classification_clt/annotation/task.results
+./reviewResults.sh $1 $2 $3 $4 $5 $6 $7 $8 $9 -resultsfile ../clt/moderation14c/task.results
 cd ..
-cd image_classification_clt/annotation
+cd clt/moderation14c
