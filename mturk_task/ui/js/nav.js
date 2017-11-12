@@ -74,6 +74,8 @@ $(document).ready(function() {
     else
       workerAnswers[currentImg] = Object.create(currentLabels);
 
+    isFirstImageLoad = false;
+
     if (current == imgs.length - 1) {
       $("#survey").css("display", "block");
       return;

@@ -26,6 +26,7 @@
         delay:300
       }
     };
+    var correction = 162.5; // workaround for first image load
 
     $.extend(true, defOptns, options);
 
@@ -236,6 +237,11 @@
         var upX = event.clientX - rect.left;
         var upY = event.clientY - rect.top;
         var shapeElm = document.createElementNS(svgNS, shape);
+
+        // workaround for first image load
+        if (isFirstImageLoad)
+          upY += correction;
+
         if (shape === 'circle') {
           shapeElm.setAttribute("cx", upX);
           shapeElm.setAttribute("cy", upY);
@@ -280,6 +286,12 @@
         event.preventDefault();
         var upX = event.clientX - rect.left;
         var upY = event.clientY - rect.top;
+        console.log(upX, upY)
+ 
+        // workaround for first image load
+        if (isFirstImageLoad)
+          upY += correction;
+
         var shapeElm = document.createElementNS(svgNS, shape);
         if (shape === 'circle') {
           shapeElm.setAttribute("cx", upX);

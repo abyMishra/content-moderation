@@ -1,4 +1,5 @@
 var imgs = [];
+var isFirstImageLoad = true;
 var current = 0;
 var currentImg = -1;
 var currentLabels = {};
@@ -12,11 +13,6 @@ var workerAnswers = {};
   var results = regex.exec(tmpURL);
   if (results != null) {
     imgs = results[1].split(",");
-
-    // workaround to force first image to reload and fix click bug
-    currentImg = imgs[current];
-    $("#pic").jqImgBlur(blurOptns);
-
     $("#total").text(imgs.length);
     prepImg();
   }
