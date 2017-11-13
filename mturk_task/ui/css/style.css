@@ -7,8 +7,13 @@ body {
   margin: 0% 1%;
 }
 
-#warning {
-  display: none;
+#consent {
+  display: block;
+}
+
+#consent-content {
+  overflow-y: scroll;
+  max-height: 100%;
 }
 
 #instructions {

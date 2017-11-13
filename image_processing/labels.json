@@ -3409,11 +3409,6 @@
         "label_type": "pornography_synthetic",
         "type": "synthetic"
     },
-    "d795c7d3ec.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
-        "type": "realistic"
-    },
     "d79d8fcf1b.jpg": {
         "category": "pornography",
         "label_type": "pornography_realistic",
