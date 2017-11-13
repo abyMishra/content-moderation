@@ -13,7 +13,12 @@ body {
 
 #consent-content {
   overflow-y: scroll;
-  max-height: 100%;
+  max-height: 50vh;
+}
+
+#consent-accept, #consent-decline {
+  float: right;
+  margin: 14px;
 }
 
 #instructions {

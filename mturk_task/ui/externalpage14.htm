@@ -11,7 +11,7 @@
   var ut_id = "b7918e0e6998770b91be7fe2c5c88b1d";
   if (UTWorkerLimitReached(ut_id)) {
     document.getElementById("mturk_form").style.display = "none";
-    document.getElementsByTagName('body')[0].innerHTML = "You have already completed the maximum number of HITs allowed by this requester. Please click 'Return HIT' to avoid any impact on your approval rating.";
+    document.getElementsByTagName("body")[0].innerHTML = "You have already completed the maximum number of HITs allowed by this requester. Please click 'Return HIT' to avoid any impact on your approval rating.";
     }
 })();
 </script>
@@ -54,6 +54,32 @@ function decode(strToDecode) {
 <form id='mturk_form' method='POST' action='https://www.mturk.com/mturk/externalSubmit'>
 
 <input type='hidden' id='assignmentId' name='assignmentId' value=''>
+
+<div id='consent' class='modal'>
+
+<div class='modal-content'>
+  <h3>Consent to Participate in Internet Research</h3>
+  <table>
+    <tr><td>
+      <div id='consent-content'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi metus tortor, venenatis sed orci ac, lobortis elementum enim. Suspendisse sed tempor erat, ac pharetra lacus. Quisque eu auctor sem. Morbi egestas accumsan lacus, ut gravida sapien. Mauris maximus elit vel arcu posuere, id rutrum justo tempus. In feugiat dapibus arcu, et congue dui dictum vel. In non semper nibh, accumsan egestas velit. Proin at magna in nisi condimentum efficitur eu eu leo. Nam dignissim suscipit mi, ac luctus odio tempor nec. Nunc in neque mauris. Nullam pretium lorem nulla, nec iaculis libero rhoncus non. Nam porttitor condimentum ante, eget fringilla lorem vulputate vitae. Mauris a erat a nisl blandit facilisis quis vel lacus. Nulla facilisi. In ultrices urna in risus semper, vel mollis elit aliquam.</p><br>
+
+      <p>Curabitur feugiat elit a tortor auctor aliquam. In ipsum leo, vestibulum nec velit a, placerat hendrerit sem. Duis sit amet massa nec augue interdum mattis sit amet quis enim. Duis ut consequat est. Aliquam nec mi ac elit elementum ullamcorper. Mauris lobortis risus sed accumsan imperdiet. Duis sit amet vestibulum augue. Suspendisse at posuere augue.</p><br>
+
+      <p>Nullam semper leo vel quam facilisis lacinia. Cras mattis luctus tellus in consectetur. Vivamus eros nisi, suscipit at tempor ac, scelerisque at augue. Vivamus vitae massa pharetra, hendrerit metus aliquam, commodo orci. Vivamus nec eros in nulla viverra facilisis. In tristique dignissim tellus, nec fringilla nisl efficitur sodales. Maecenas purus diam, dapibus eu purus in, accumsan facilisis purus. Donec sodales at arcu placerat sodales. Phasellus facilisis, urna in cursus fermentum, justo metus vestibulum nisl, in interdum risus metus id felis. Suspendisse venenatis scelerisque consequat. Pellentesque gravida tincidunt arcu.</p><br>
+
+      <p>Nunc gravida urna eu velit tempus, vel ullamcorper sem pretium. Quisque et tortor ut purus faucibus commodo luctus ut diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sit amet tincidunt leo. Cras facilisis velit at nunc luctus, quis maximus mi posuere. Morbi cursus enim a eros lobortis maximus at non enim. Sed arcu augue, sodales in placerat eget, ornare nec enim. Morbi sapien sem, euismod at ex ut, vulputate vulputate nunc. Nulla nec mollis leo. Aliquam felis magna, porttitor eget urna non, volutpat efficitur nulla. Nam ultricies interdum viverra. Etiam at enim fringilla lectus convallis molestie. Suspendisse ac turpis ligula. Phasellus non feugiat odio. Cras sed ligula sit amet quam aliquam venenatis a ac justo. Integer sagittis vel lorem sit amet lacinia.</p><br>
+
+      <p>Sed at risus euismod, rutrum sem non, sagittis mi. In nec odio nibh. Vivamus bibendum purus risus, id facilisis purus maximus vel. In hac habitasse platea dictumst. Vivamus nec tempor justo. Suspendisse potenti. Nulla id turpis pretium, pulvinar risus non, lobortis ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam vel turpis leo.</p></div>
+    </td></tr>
+
+    <tr><td>
+      <button id='consent-accept' class='btn btn-success' type='button'>Accept</button>
+      <button id='consent-decline' class='btn btn-danger' type='button'>Decline</button>
+    </td></tr>
+  </table>
+</div>
+
+</div>
 
 <div id='instructions' class='accordion'>
 
@@ -186,18 +212,20 @@ var blurOptns = {
 <script src='js/nav.js'></script>
 
 <script language='Javascript'>
-$('#assignmentId').val(gup('assignmentId'));
+$("#assignmentId").val(gup("assignmentId"));
 // Check if the worker is PREVIEWING the HIT or if they've ACCEPTED the HIT
-if (gup('assignmentId') == 'ASSIGNMENT_ID_NOT_AVAILABLE') {
+if (gup("assignmentId") == "ASSIGNMENT_ID_NOT_AVAILABLE") {
   // If we're previewing, disable the button and give it a helpful message
-  $('#submitButton').attr('disabled', true)
-  $('*').click(function(evt) {
-    evt.stopPropagation();
-    alert('Please accept the HIT before working on it.');
+  $("#submitButton").attr("disabled", true);
+  $("#consent").css("display", "none");
+  $(".accordion").accordion({active: 0});
+  $("*").click(function(evt) {
+    evt.preventDefault();
+    alert("Please accept the HIT before working on it.");
   });
 } else {
-  if (document.referrer && (document.referrer.indexOf('workersandbox') != -1))
-    $('#mturk_form').attr('action', 'https://workersandbox.mturk.com/mturk/externalSubmit');
+  if (document.referrer && (document.referrer.indexOf("workersandbox") != -1))
+    $("#mturk_form").attr("action", "https://workersandbox.mturk.com/mturk/externalSubmit");
 }
 </script>
 

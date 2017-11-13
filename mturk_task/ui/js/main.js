@@ -20,7 +20,18 @@ var workerAnswers = {};
 
 $(document).ready(function() {
   $(".accordion").accordion({
-    collapsible: true
+    collapsible: true,
+    active: false
+  });
+
+  $("#consent-accept").click(function() {
+    $("#consent").css("display", "none");
+    $(".accordion").accordion({active: 0});
+  });
+
+  $("#consent-decline").click(function() {
+    $("#mturk_form").css("display", "none");
+    $("body").text("Thank you for your interest in completing this HIT. Please click \"Return HIT\" to allow someone else to work on this task.");
   });
 });
 

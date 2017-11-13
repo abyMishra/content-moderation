@@ -11,7 +11,7 @@
   var ut_id = "cd78080423f30025d721d119d76d2333";
   if (UTWorkerLimitReached(ut_id)) {
     document.getElementById("mturk_form").style.display = "none";
-    document.getElementsByTagName('body')[0].innerHTML = "You have already completed the maximum number of HITs allowed by this requester. Please click 'Return HIT' to avoid any impact on your approval rating.";
+    document.getElementsByTagName("body")[0].innerHTML = "You have already completed the maximum number of HITs allowed by this requester. Please click 'Return HIT' to avoid any impact on your approval rating.";
     }
 })();
 </script>
@@ -77,8 +77,6 @@ function decode(strToDecode) {
       <button id='consent-decline' class='btn btn-danger' type='button'>Decline</button>
     </td></tr>
   </table>
-</div>
-
 </div>
 
 </div>
@@ -214,18 +212,20 @@ var blurOptns = {
 <script src='js/nav.js'></script>
 
 <script language='Javascript'>
-$('#assignmentId').val(gup('assignmentId'));
+$("#assignmentId").val(gup("assignmentId"));
 // Check if the worker is PREVIEWING the HIT or if they've ACCEPTED the HIT
-if (gup('assignmentId') == 'ASSIGNMENT_ID_NOT_AVAILABLE') {
+if (gup("assignmentId") == "ASSIGNMENT_ID_NOT_AVAILABLE") {
   // If we're previewing, disable the button and give it a helpful message
-  $('#submitButton').attr('disabled', true)
-  $('*').click(function(evt) {
-    evt.stopPropagation();
-    alert('Please accept the HIT before working on it.');
+  $("#submitButton").attr("disabled", true);
+  $("#consent").css("display", "none");
+  $(".accordion").accordion({active: 0});
+  $("*").click(function(evt) {
+    evt.preventDefault();
+    alert("Please accept the HIT before working on it.");
   });
 } else {
-  if (document.referrer && (document.referrer.indexOf('workersandbox') != -1))
-    $('#mturk_form').attr('action', 'https://workersandbox.mturk.com/mturk/externalSubmit');
+  if (document.referrer && (document.referrer.indexOf("workersandbox") != -1))
+    $("#mturk_form").attr("action", "https://workersandbox.mturk.com/mturk/externalSubmit");
 }
 </script>
 
