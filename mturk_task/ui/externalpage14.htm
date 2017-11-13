@@ -4,18 +4,6 @@
 
 <html>
 
-<!-- http://uniqueturker.myleott.com/ -->
-<script src='https://uniqueturker.myleott.com/lib.js' type='text/javascript'></script>
-<script type='text/javascript'>
-(function(){
-  var ut_id = "b7918e0e6998770b91be7fe2c5c88b1d";
-  if (UTWorkerLimitReached(ut_id)) {
-    $("#mturk_form").css("display", "none");
-    $("body").text("You have already completed the maximum number of HITs allowed by this requester. Please click 'Return HIT' to avoid any impact on your approval rating.");
-    }
-})();
-</script>
-
 <link rel='stylesheet' href='https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel='stylesheet' type='text/css' href='css/style.css'>
@@ -25,6 +13,18 @@
 <script src='https://code.jquery.com/jquery-1.12.4.js'></script>
 <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
 <script src='js/jqImgBlurEffects/jqImgBlurEffects.js'></script>
+
+<!-- http://uniqueturker.myleott.com/ -->
+<script src='https://uniqueturker.myleott.com/lib.js' type='text/javascript'></script>
+<script type='text/javascript'>
+$(document).ready(function() {
+  var ut_id = "b7918e0e6998770b91be7fe2c5c88b1d";
+  if (UTWorkerLimitReached(ut_id)) {
+    $("#mturk_form").css("display", "none");
+    $("body").text("You have already completed the maximum number of HITs allowed by this requester. Please click 'Return HIT' to avoid any impact on your approval rating.");
+  }
+});
+</script>
 
 <!-- https://github.com/budang/turkey-lite -->
 <script src='https://cdn.rawgit.com/budang/turkey-lite/3b71e095/js/turkey-lite-prod.js'></script>
