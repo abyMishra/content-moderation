@@ -216,13 +216,16 @@ $("#assignmentId").val(gup("assignmentId"));
 // Check if the worker is PREVIEWING the HIT or if they've ACCEPTED the HIT
 if (gup("assignmentId") == "ASSIGNMENT_ID_NOT_AVAILABLE") {
   // If we're previewing, disable the button and give it a helpful message
-  $("#submitButton").attr("disabled", true);
-  $("#consent").css("display", "none");
-  $(".accordion").accordion({active: 0});
-  $("*").click(function(evt) {
-    evt.preventDefault();
-    alert("Please accept the HIT before working on it.");
-  });
+  $(document).ready(function() {
+    $("#submitButton").attr("disabled", true);
+    $("#consent").css("display", "none");
+    $(".accordion").accordion({active: 0});
+    $("*").click(function(evt) {
+      evt.stopPropagation();
+      evt.preventDefault();
+      alert("Please accept the HIT before working on it.");
+    });
+  )};
 } else {
   if (document.referrer && (document.referrer.indexOf("workersandbox") != -1))
     $("#mturk_form").attr("action", "https://workersandbox.mturk.com/mturk/externalSubmit");
