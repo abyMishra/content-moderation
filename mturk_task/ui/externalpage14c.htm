@@ -230,7 +230,7 @@ if (gup("assignmentId") == "ASSIGNMENT_ID_NOT_AVAILABLE") {
       evt.preventDefault();
       alert("Please accept the HIT before working on it.");
     });
-  )};
+  });
 } else {
   if (document.referrer && (document.referrer.indexOf("workersandbox") != -1))
     $("#mturk_form").attr("action", "https://workersandbox.mturk.com/mturk/externalSubmit");
