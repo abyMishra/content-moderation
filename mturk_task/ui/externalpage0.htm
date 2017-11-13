@@ -10,8 +10,8 @@
 (function(){
   var ut_id = "cd78080423f30025d721d119d76d2333";
   if (UTWorkerLimitReached(ut_id)) {
-    document.getElementById("mturk_form").style.display = "none";
-    document.getElementsByTagName("body")[0].innerHTML = "You have already completed the maximum number of HITs allowed by this requester. Please click 'Return HIT' to avoid any impact on your approval rating.";
+    $("#mturk_form").css("display", "none");
+    $("body").text("You have already completed the maximum number of HITs allowed by this requester. Please click 'Return HIT' to avoid any impact on your approval rating.");
     }
 })();
 </script>
