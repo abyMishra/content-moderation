@@ -1,16 +1,20 @@
-var pornDef = "This image displays pornography, nudity, or overly sexual themes.";
-var violDef = "This image displays excessive violence, torture, gore, blood, or injury towards a person or animal.";
-var safeDef = "This image would be ok to comfortably show a 10-year-old, your boss, or your coworkers.";
+var sexDef = "Any obvious sexual activity (i.e., pornography), even if hidden from view, or visible \"private\" parts, even through clothing. Cartoon and art included. Kissing is allowed.";
+var graphicDef = "Content displaying violence, mutilation, or torture towards a person or animal, or content displaying excessive injury, blood, or gore.";
+var safeDef = "Content that you could comfortably share with your 10-year-old child, elderly grandmother, or your boss and coworkers.";
+var otherDef = "None of the other categories adequately describe this content."
 
 var categories =
-  ["<input type='radio' name='category' value='pornography'> Pornography "
-    + "<a href='#' data-toggle='tooltip' data-placement='right' title='" + pornDef + "'>"
+  ["<input type='radio' name='category' value='sex_nudity'> Sex and nudity "
+    + "<a href='#' data-toggle='tooltip' data-placement='right' title='" + sexDef + "'>"
     + "<span class='glyphicon glyphicon-question-sign'></span></a><br>",
-  "<input type='radio' name='category' value='violence'> Violence / Gore "
-    + "<a href='#' data-toggle='tooltip' data-placement='right' title='" + violDef + "'>"
+  "<input type='radio' name='category' value='graphic'> Graphic content "
+    + "<a href='#' data-toggle='tooltip' data-placement='right' title='" + graphicDef + "'>"
     + "<span class='glyphicon glyphicon-question-sign'></span></a><br>",
   "<input type='radio' name='category' value='safe'> Safe for general audiences "
     + "<a href='#' data-toggle='tooltip' data-placement='right' title='" + safeDef + "'>"
+    + "<span class='glyphicon glyphicon-question-sign'></span></a><br>",
+  "<input type='radio' name='category' value='other'> Other "
+    + "<a href='#' data-toggle='tooltip' data-placement='right' title='" + otherDef + "'>"
     + "<span class='glyphicon glyphicon-question-sign'></span></a><br>"];
 
 var types =

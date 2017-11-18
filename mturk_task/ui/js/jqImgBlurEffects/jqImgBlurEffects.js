@@ -286,8 +286,7 @@
         event.preventDefault();
         var upX = event.clientX - rect.left;
         var upY = event.clientY - rect.top;
-        console.log(upX, upY)
- 
+
         // workaround for first image load
         if (isFirstImageLoad)
           upY += correction;

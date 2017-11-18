@@ -12,7 +12,8 @@
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js'></script>
 <script src='https://code.jquery.com/jquery-1.12.4.js'></script>
 <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous <script src='js/jqImgBlurEffects/jqImgBlurEffects.js'></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src='js/jqImgBlurEffects/jqImgBlurEffects.js'></script>
 
 <!-- http://uniqueturker.myleott.com/ -->
 <script src='https://uniqueturker.myleott.com/lib.js' type='text/javascript'></script>
@@ -75,7 +76,7 @@ function decode(strToDecode) {
         </ul><br>
 
         <b>Risks, Benefits, and Confidentiality of Data</b><br>
-        <p>There are no known risks to participating in this project beyond what is experienced in everyday life. The imagery consists of "adult content" and "safe" content. There will be no costs for participating, nor will you benefit from participating. No identifying information about you (including name or email address) will be collected, so no one will be able to connect you to the research. A limited number of research team members will have access to the data during data collection. MTurk worker IDs will not be shared with anyone outside of the research team, will be removed from the data set, and will not be linked to survey responses. Identifying information will be stripped from the final dataset. Worker IDs will only be collected in order to be able to distribute compensation. They will not be associated with survey responses.</p><br>
+        <p>There are no known risks to participating with the exception of possible discomfort due to being exposed to "adult" content (violence, gore, nudity). There will be no costs for participating, nor will you benefit from participating. No identifying information about you (including name or email address) will be collected, so no one will be able to connect you to the research. A limited number of research team members will have access to the data during data collection. MTurk worker IDs will not be shared with anyone outside of the research team, will be removed from the data set, and will not be linked to survey responses. Identifying information will be stripped from the final dataset. Worker IDs will only be collected in order to be able to distribute compensation. They will not be associated with survey responses. Please note that the data collected in this study will only be used in a class context and will otherwise not be shared or published.</p><br>
 
         <p><i>Disclaimer</i>: Any work performed on MTurk can be linked to users' public Amazon profile pages. Though we will anonymize your data, you may wish to restrict what information you choose to share on your public profile.</p><br>
 
@@ -83,7 +84,7 @@ function decode(strToDecode) {
         <p>Your participation in this study is voluntary. You may <b>decline to answer any question</b> and you have the right to withdraw from participation at any time. Withdrawal will not affect your relationship with The University of Texas in any way.  If you choose not to participate or to withdraw, please do not accept the HIT, or you may simply return it. Should you withdraw from the study, any data you have provided will not be used and will instead be discarded.</p><br>
 
         <b>Contacts</b><br>
-        <p>If you have any questions about the study, you may contact the researchers Brandon Dang at <a href='mailto:budang@utexas.edu'> budang@utexas.edu</a> or Martin Riedl at <a href='mailto:martin.riedl@utexas.edu'>martin.riedl@utexas.edu</a>.</p><br>
+        <p>If you have any questions about the study, you may contact the researchers Brandon Dang at <a href='mailto:budang@utexas.edu'> budang@utexas.edu</a>, Martin Riedl at <a href='mailto:martin.riedl@utexas.edu'>martin.riedl@utexas.edu</a>, and Matt Lease at <a href='mailto:ml@utexas.edu'>ml@utexas.edu</a>.</p><br>
 
         <p><span class='important'>If you agree to participate, you may be exposed to images that contain violence, gore, or nudity.</span> By clicking [ACCEPT] I affirm that I am at least 18 years old and I consent to participate in this study. By accepting this HIT, I indicate my consent to participate in this study.</p><br>
 
@@ -104,9 +105,10 @@ function decode(strToDecode) {
 <h3>INSTRUCTIONS</h3>
 <div><p>We are researchers at the University of Texas at Austin studying content moderation with the goal of making the Internet a better place. Please review each image carefully and answer its corresponding questions to the best of your ability. When you are done, you will be asked to take a survey and will be provided a validation key to submit. <span class='important'> Please complete this HIT only once. All subsequent submissions will be rejected.</span> The image categories are as follows:</p>
 <ul>
-  <li><b>Pornography:</b> Does the image display pornography, nudity, or overly sexual themes?</li>
-  <li><b>Violence / Gore:</b> Does this image display excessive violence, torture, gore, blood, or injury towards a person or animal?</li>
-  <li><b>Safe for general audiences:</b> Is this an image you would be comfortable showing to a 10-year-old? Is this an image you can show to your boss and coworkers without getting in trouble?</li>
+  <li><b>Sex and nudity:</b> Any obvious sexual activity (i.e., pornography), even if hidden from view, or visible "private" parts, even through clothing. Cartoon and art included. Kissing is allowed.</li>
+  <li><b>Graphic content:</b> Content displaying violence, mutilation, or torture towards a person or animal, or content displaying excessive injury, blood, or gore.</li>
+  <li><b>Safe for general audiences:</b> Content that you would be comfortable sharing with your 10-year-old child, elderly grandmother, or boss and coworkers.</li>
+  <li><b>Other:</b> None of the other categories adequately describe this content.
 </ul>
 <p>Press the <b>&lt; Prev</b> and <b>Next ></b> buttons to navigate between images. If the image does not load, click the red "<b>Image did not load</b>" button. Once you have reached the last image, press <b>Next ></b> to continue to the survey.</p></div>
 
@@ -126,9 +128,10 @@ function decode(strToDecode) {
       <b>1. Which category <span class='important'>best</span> describes this image?</b><br>
       <div id='categories'>
         <!--
-        <input type='radio' name='category' value='pornography'> Pornography<br>
-        <input type='radio' name='category' value='violence'> Violence / Gore<br>
+        <input type='radio' name='category' value='sex_nudity'> Sex and nudity<br>
+        <input type='radio' name='category' value='graphic'> Graphic content<br>
         <input type='radio' name='category' value='safe'> Safe for general audiences<br>
+        <input type='radio' name='category' value='other'> Other<br>
         -->
       </div>
     </div>
@@ -163,7 +166,7 @@ function decode(strToDecode) {
       </div>
     </div>
     <div class='question'>
-      <b>4. As a moderator, would you personally approve this image to be posted on Facebook <span class='important'>unblurred?</span></b><br>
+      <b>4. Imagine you are a professional moderator for Facebook. Would you approve this image to be posted on the platform <span class='important'>unblurred?</span></b><br>
       <div id='approval'>
         <!--
         <input type='radio' name='approval' value='approve'> Yes<br>

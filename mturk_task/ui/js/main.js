@@ -31,7 +31,7 @@ $(document).ready(function() {
 
   $("#consent-decline").click(function() {
     $("#mturk_form").css("display", "none");
-    $("body").text("Thank you for your interest in completing this HIT. Unfortunately, you must agree to the consent form to continue. Please click \"Return HIT\" to allow someone else to work on this task.");
+    $("body").text("Thank you for your interest in completing this HIT. Unfortunately, participation is only possible if you consent to it. Please click \"Return HIT\" to allow someone else to work on this task.");
   });
 });
 
