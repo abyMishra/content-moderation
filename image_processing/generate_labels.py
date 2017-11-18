@@ -11,7 +11,7 @@ for dirname, dirnames, filenames in os.walk(path):
         continue
 
     label_name = dirname[len(path):]
-    image_category, image_type = label_name.split('_')
+    image_category, image_type = label_name.rsplit('_', 1)
     counts[label_name] = len(filenames)
 
     for f in filenames:

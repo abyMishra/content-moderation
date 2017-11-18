@@ -1,12 +1,12 @@
 {
     "004782d3f9.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "0070e95333.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "00eb1079c8.jpg": {
@@ -25,8 +25,8 @@
         "type": "realistic"
     },
     "01dbc20c6a.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "02edad7a52.jpg": {
@@ -35,18 +35,18 @@
         "type": "realistic"
     },
     "039078ccf7.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "03a08aecc1.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "03b14b2dd3.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "05036df0e2.jpg": {
@@ -60,23 +60,23 @@
         "type": "synthetic"
     },
     "065127d8b7.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "0722a0d801.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "072862374c.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "074020ea62.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "0749fab501.jpg": {
@@ -85,33 +85,33 @@
         "type": "synthetic"
     },
     "07c003c5da.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "0888bbf47d.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "08b8d9d732.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "08d3c5912e.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "09149a3c26.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "091ed9507a.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "09399fd165.jpg": {
@@ -120,8 +120,8 @@
         "type": "synthetic"
     },
     "09ba517cdb.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "09c2f4bd6f.jpg": {
@@ -140,13 +140,13 @@
         "type": "synthetic"
     },
     "0b4242e7b3.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "0b47893122.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "0b48dfb26c.jpg": {
@@ -155,43 +155,43 @@
         "type": "synthetic"
     },
     "0bcf9433b6.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "0c710195a0.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "0c96903d9b.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "0d00bba284.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "0d6274f0c1.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "0d8c82a3fe.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "0dade38acb.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "0ead66c9f9.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "0ebb741caf.jpg": {
@@ -200,8 +200,8 @@
         "type": "synthetic"
     },
     "0ecae50a54.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "0f05e931ab.jpg": {
@@ -215,8 +215,8 @@
         "type": "synthetic"
     },
     "0f947c45c6.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "0fd1d109b9.jpg": {
@@ -225,8 +225,8 @@
         "type": "synthetic"
     },
     "1067dbff1b.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "114382783b.jpg": {
@@ -235,8 +235,8 @@
         "type": "synthetic"
     },
     "118c964b8b.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "11de68a27a.jpg": {
@@ -245,8 +245,8 @@
         "type": "synthetic"
     },
     "11f844906d.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "12a89aaaf3.jpg": {
@@ -255,13 +255,13 @@
         "type": "synthetic"
     },
     "13567cb766.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "1372cde307.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "139a31044e.jpg": {
@@ -270,18 +270,18 @@
         "type": "synthetic"
     },
     "13aa4a7f2e.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "13ad58c3b2.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "13c063e060.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "13c92ab31d.jpg": {
@@ -290,8 +290,8 @@
         "type": "synthetic"
     },
     "13ee9b98e1.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "145938301f.jpg": {
@@ -300,23 +300,23 @@
         "type": "realistic"
     },
     "14b84408d7.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "14f174be6b.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "14fe0ab89b.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "154469cbb9.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "1601a7e01e.jpg": {
@@ -330,8 +330,8 @@
         "type": "synthetic"
     },
     "164f61076a.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "168457136f.jpg": {
@@ -340,18 +340,18 @@
         "type": "synthetic"
     },
     "1791bdd160.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "17efdb65ea.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "188ef25f14.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "18a5a53145.jpg": {
@@ -360,13 +360,13 @@
         "type": "synthetic"
     },
     "18c55977ee.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "18cebc9283.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "18e3950cac.jpg": {
@@ -375,28 +375,28 @@
         "type": "realistic"
     },
     "18e432ff95.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "18e6593a26.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "18fc9d369c.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "19297b3d2c.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "198ec0e6f6.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "1a02323d94.jpg": {
@@ -410,18 +410,18 @@
         "type": "synthetic"
     },
     "1aa2f61739.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "1ac611a0b6.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "1b64622640.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "1ba7e70497.jpg": {
@@ -430,8 +430,8 @@
         "type": "synthetic"
     },
     "1c7300b66d.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "1c8355ecef.jpg": {
@@ -440,43 +440,43 @@
         "type": "synthetic"
     },
     "1ca0d0043c.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "1d8939ec40.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "1d993ef155.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "1e3b1eb70b.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "1ec1a0e869.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "1f05e029fb.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "1f467b1c0d.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "200b192551.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "20556e2c84.jpg": {
@@ -485,8 +485,8 @@
         "type": "synthetic"
     },
     "205cf6b81c.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "207a3f9161.jpg": {
@@ -495,8 +495,8 @@
         "type": "synthetic"
     },
     "2088fd6647.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "2096d3a89e.jpg": {
@@ -505,48 +505,48 @@
         "type": "synthetic"
     },
     "211010eaba.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "21358333ff.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "21439ad6f7.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "2161a149b1.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "21feb5c2f8.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "22217f3bb1.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "2275945cb3.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "230dafe7e0.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "231ac6f710.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "231ae182f9.jpg": {
@@ -555,8 +555,8 @@
         "type": "synthetic"
     },
     "232c2029cc.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "23fc224b56.jpg": {
@@ -570,8 +570,8 @@
         "type": "synthetic"
     },
     "2505fce2d7.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "2535875cea.jpg": {
@@ -580,8 +580,8 @@
         "type": "realistic"
     },
     "2574d58769.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "2632fce3a5.jpg": {
@@ -590,18 +590,18 @@
         "type": "synthetic"
     },
     "267d4df6c7.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "26a55ddfa4.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "26c7c0d095.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "26e9529623.jpg": {
@@ -610,13 +610,13 @@
         "type": "synthetic"
     },
     "272d93ca9d.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "2774e7835f.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "27c9cba6e2.jpg": {
@@ -625,18 +625,18 @@
         "type": "synthetic"
     },
     "27d3da55a2.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "27f7f06522.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "28c5a9d725.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "28cf0dc6f3.jpg": {
@@ -650,33 +650,33 @@
         "type": "realistic"
     },
     "2a440ab7b3.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "2a4ac4945f.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "2a6ae66ee4.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "2ab1b39d2e.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "2b065bcc4c.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "2b46a03fbc.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "2b6f0a556e.jpg": {
@@ -695,8 +695,8 @@
         "type": "synthetic"
     },
     "2c021e98a9.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "2cc8636b5e.jpg": {
@@ -705,18 +705,18 @@
         "type": "realistic"
     },
     "2dccdfced7.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "2e4eed2533.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "2e66809a08.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "2e68dfcc47.jpg": {
@@ -725,18 +725,18 @@
         "type": "realistic"
     },
     "2edb4fd873.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "2f3f1032d8.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "303c3bf261.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "30acaa7a3f.jpg": {
@@ -745,18 +745,18 @@
         "type": "realistic"
     },
     "30c8cdf47a.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "30edc4d306.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "30fa00f267.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "31ac9a035f.jpg": {
@@ -765,8 +765,8 @@
         "type": "synthetic"
     },
     "32533b9ed1.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "32c9aab8f9.jpg": {
@@ -775,8 +775,8 @@
         "type": "realistic"
     },
     "32fc249067.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "3367c7f643.jpg": {
@@ -785,8 +785,8 @@
         "type": "realistic"
     },
     "3385f8970b.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "3405170590.jpg": {
@@ -800,13 +800,13 @@
         "type": "synthetic"
     },
     "343d0a3b80.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "34c5c308e0.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "34f4b889ea.jpg": {
@@ -830,8 +830,8 @@
         "type": "synthetic"
     },
     "36495e62e9.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "368ff457c2.jpg": {
@@ -840,18 +840,18 @@
         "type": "realistic"
     },
     "3795345efa.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "37e91b3897.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "37f9b5c554.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "38366ad6df.jpg": {
@@ -860,33 +860,33 @@
         "type": "synthetic"
     },
     "389c00281e.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "38f060acfd.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "38f74e120c.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "396b3281a9.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "397b69ec28.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "39843a8aa0.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "39e08c2b01.jpg": {
@@ -895,8 +895,8 @@
         "type": "realistic"
     },
     "39f6880f99.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "3ae9064839.jpg": {
@@ -910,13 +910,13 @@
         "type": "synthetic"
     },
     "3bb3e3d8af.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "3bca1b2474.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "3bcbddde83.jpg": {
@@ -930,8 +930,8 @@
         "type": "realistic"
     },
     "3e7369a9c3.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "3f57b78ecd.jpg": {
@@ -940,8 +940,8 @@
         "type": "synthetic"
     },
     "3fcd99870b.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "400313bb96.jpg": {
@@ -950,8 +950,8 @@
         "type": "realistic"
     },
     "407f82a6c5.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "4096c1397a.jpg": {
@@ -960,13 +960,13 @@
         "type": "realistic"
     },
     "40f25105fc.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "4147fa589a.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "415c073214.jpg": {
@@ -980,38 +980,38 @@
         "type": "realistic"
     },
     "41841a46b1.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "4191a80273.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "41942abe93.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "42244a93a7.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "423ba0eb9a.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "4249e20d65.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "42ff12e2c5.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "43a55502fc.jpg": {
@@ -1020,28 +1020,28 @@
         "type": "synthetic"
     },
     "43b50c700e.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "43d1bc7167.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "43e3a1a94d.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "449c78ac73.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "44a8a8feda.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "44ba085d1f.jpg": {
@@ -1050,13 +1050,13 @@
         "type": "realistic"
     },
     "44fbd2c249.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "45166b12d5.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "4604fdccdf.jpg": {
@@ -1070,8 +1070,8 @@
         "type": "realistic"
     },
     "4715053384.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "4837d3e70f.jpg": {
@@ -1095,18 +1095,18 @@
         "type": "synthetic"
     },
     "49d4b8d026.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "49fc3bf459.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "4a928b862e.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "4aa2d7e837.jpg": {
@@ -1115,38 +1115,38 @@
         "type": "synthetic"
     },
     "4aba7f60f9.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "4b04931849.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "4b06d946a0.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "4b2a9ff734.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "4b510eccdd.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "4beae60be2.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "4bf285eb0a.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "4c1d6c4a92.jpg": {
@@ -1155,8 +1155,8 @@
         "type": "synthetic"
     },
     "4c2725b765.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "4cad844455.jpg": {
@@ -1165,8 +1165,8 @@
         "type": "realistic"
     },
     "4cbbd3db64.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "4d15c38d23.jpg": {
@@ -1185,8 +1185,8 @@
         "type": "realistic"
     },
     "4db509bca7.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "4e55a68985.jpg": {
@@ -1195,8 +1195,8 @@
         "type": "synthetic"
     },
     "4f76e8168a.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "4f7d15dc90.jpg": {
@@ -1205,23 +1205,23 @@
         "type": "realistic"
     },
     "5003d17ced.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "507d3c3cc2.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "507eb146b2.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "50b6559964.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "50f07af7af.jpg": {
@@ -1235,13 +1235,13 @@
         "type": "realistic"
     },
     "520c512d4e.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "52131c7cb3.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "52220278ec.jpg": {
@@ -1265,13 +1265,13 @@
         "type": "realistic"
     },
     "533a20b02a.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "53613a5f59.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "55162851ab.jpg": {
@@ -1280,18 +1280,18 @@
         "type": "realistic"
     },
     "5551e49a60.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "5613fcf4e9.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "5650a90543.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "569beb7a69.jpg": {
@@ -1300,43 +1300,43 @@
         "type": "synthetic"
     },
     "570bdc76a6.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "57d483cb4c.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "57e1740e3c.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "57ffef8cff.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "58432b3684.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "58e5745a3d.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "591403ed0c.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "594a2a7132.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "59b535e41d.jpg": {
@@ -1345,38 +1345,38 @@
         "type": "synthetic"
     },
     "59bcd8681f.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "59cc1e4f41.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "59e9acb257.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "59f02b5b24.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "59f73dc0d9.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "5a83034b19.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "5aa9bd0ed4.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "5b08b75fff.jpg": {
@@ -1385,23 +1385,23 @@
         "type": "synthetic"
     },
     "5b2c609e36.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "5b9b25c8c3.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "5c04615a6d.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "5c29ea1f2f.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "5c2c8d5201.jpg": {
@@ -1410,18 +1410,18 @@
         "type": "synthetic"
     },
     "5cd0239ab9.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "5cd0277a0b.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "5cd0ef11b7.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "5d5ac81a37.jpg": {
@@ -1430,28 +1430,28 @@
         "type": "realistic"
     },
     "5da8df67c6.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "5de04711a5.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "5de858924f.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "5e8dc7078c.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "5eb9e6b243.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "5ecf415afd.jpg": {
@@ -1460,8 +1460,8 @@
         "type": "synthetic"
     },
     "5f2a8230e4.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "607cdb1a54.jpg": {
@@ -1475,13 +1475,13 @@
         "type": "realistic"
     },
     "60f185a318.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "6104083215.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "6165be1b25.jpg": {
@@ -1490,8 +1490,8 @@
         "type": "realistic"
     },
     "6236ba9c44.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "62d17b0b74.jpg": {
@@ -1500,8 +1500,8 @@
         "type": "synthetic"
     },
     "62eb2d59f4.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "630878304b.jpg": {
@@ -1515,18 +1515,18 @@
         "type": "realistic"
     },
     "64495bc7d5.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "6523562ef1.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "6530732256.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "65424f4796.jpg": {
@@ -1535,63 +1535,63 @@
         "type": "realistic"
     },
     "66079753ad.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "66599630ad.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "666d39be1a.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "66ba7d1c2d.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "66ccb5e934.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "66e8b30095.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "670808feb2.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "679fad74cd.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "6899868932.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "68c8670775.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "68ef568125.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "6940850d78.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "694de79316.jpg": {
@@ -1600,8 +1600,8 @@
         "type": "synthetic"
     },
     "6a3727bd6e.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "6a530cf808.jpg": {
@@ -1610,18 +1610,18 @@
         "type": "synthetic"
     },
     "6ad362a329.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "6aed7a5f2f.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "6af2ddd426.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "6b030fcd55.jpg": {
@@ -1635,33 +1635,33 @@
         "type": "realistic"
     },
     "6b48400061.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "6b7402dc82.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "6b7b060bc6.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "6c261f4a6e.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "6c81db3894.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "6c9cb28c7a.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "6d3444965f.jpg": {
@@ -1675,18 +1675,18 @@
         "type": "realistic"
     },
     "6dbbcc3b8b.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "6dc3710a95.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "6df8e7ef08.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "6e12062dcf.jpg": {
@@ -1695,23 +1695,23 @@
         "type": "realistic"
     },
     "6e634b725f.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "6e93391adc.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "6ec27bda82.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "6ed073d751.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "6f7d840e09.jpg": {
@@ -1725,8 +1725,8 @@
         "type": "synthetic"
     },
     "6fb0162b6f.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "6fc630f7dd.jpg": {
@@ -1735,18 +1735,18 @@
         "type": "realistic"
     },
     "700698826f.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "70278cd307.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "70478644ec.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "719da88638.jpg": {
@@ -1760,8 +1760,8 @@
         "type": "realistic"
     },
     "71e79c0658.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "720913700e.jpg": {
@@ -1770,18 +1770,18 @@
         "type": "synthetic"
     },
     "722e04cfcb.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "7287683ae2.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "7289b6c925.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "729c9165b4.jpg": {
@@ -1790,8 +1790,8 @@
         "type": "realistic"
     },
     "734ee56e9a.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "736a74c413.jpg": {
@@ -1800,8 +1800,8 @@
         "type": "synthetic"
     },
     "73abdd957f.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "73f96b7971.jpg": {
@@ -1810,8 +1810,8 @@
         "type": "synthetic"
     },
     "741ab6ee0c.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "74ccd051a1.jpg": {
@@ -1830,13 +1830,13 @@
         "type": "synthetic"
     },
     "7616791bb4.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "7642a57261.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "76ba2842f2.jpg": {
@@ -1845,13 +1845,13 @@
         "type": "synthetic"
     },
     "7700eb00b6.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "7720de2e76.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "7725a8cff0.jpg": {
@@ -1860,23 +1860,23 @@
         "type": "realistic"
     },
     "77c42b5df6.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "77efc34c62.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "78272ad6cd.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "78c1be3212.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "78ec2dbc7c.jpg": {
@@ -1885,8 +1885,8 @@
         "type": "realistic"
     },
     "79162d30ea.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "79813b6091.jpg": {
@@ -1895,23 +1895,23 @@
         "type": "synthetic"
     },
     "7981e79f6b.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "79b2749a32.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "7a38bf2213.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "7a4c5b133e.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "7ae7d99613.jpg": {
@@ -1920,8 +1920,8 @@
         "type": "synthetic"
     },
     "7b60155af9.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "7d987e7864.jpg": {
@@ -1930,8 +1930,8 @@
         "type": "synthetic"
     },
     "7d98eece5a.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "7db39e1d44.jpg": {
@@ -1950,8 +1950,8 @@
         "type": "synthetic"
     },
     "7e02792827.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "7e43d6e52b.jpg": {
@@ -1960,28 +1960,28 @@
         "type": "realistic"
     },
     "7eb6b63951.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "7f2c1e7a98.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "7f3a57dbbc.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "7f479ec5e9.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "7f7668f5d3.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "7fa5596b4b.jpg": {
@@ -1990,13 +1990,13 @@
         "type": "realistic"
     },
     "7ff7f14b7d.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "8049f92de3.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "805ca7ba26.jpg": {
@@ -2010,13 +2010,13 @@
         "type": "realistic"
     },
     "80cd2076eb.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "80ee40a09a.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "813c9d1658.jpg": {
@@ -2025,8 +2025,8 @@
         "type": "realistic"
     },
     "815c82b2e6.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "8209cb77f2.jpg": {
@@ -2035,78 +2035,78 @@
         "type": "synthetic"
     },
     "827e6ecb33.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "82c5bef009.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "82e7e503c5.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "83da059e69.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "84103eab3f.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "8460ae7e0c.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "84a90b3513.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "84bbf1cc98.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "851fcebc8a.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "855cd10602.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "85b14c4cad.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "8688231540.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "8705f81148.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "8742a0d63b.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "87839fa0b1.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "8790e5b0ff.jpg": {
@@ -2115,13 +2115,13 @@
         "type": "realistic"
     },
     "886b0ca417.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "8879310dfa.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "89136e6d0f.jpg": {
@@ -2130,18 +2130,18 @@
         "type": "synthetic"
     },
     "893954e0fb.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "89681674f9.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "8974feaaf0.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "89b6314816.jpg": {
@@ -2150,33 +2150,33 @@
         "type": "synthetic"
     },
     "89b89a53cc.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "89e217e3ee.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "8a672cecb5.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "8b15f0a648.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "8bd5ad96eb.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "8c0e6c4229.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "8cbc9c13fb.jpg": {
@@ -2185,13 +2185,13 @@
         "type": "synthetic"
     },
     "8ccefc43ab.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "8d34f3c098.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "8d6bc5341d.jpg": {
@@ -2215,18 +2215,18 @@
         "type": "synthetic"
     },
     "8f9459bf7b.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "8fb9f01fee.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "8fbee313d5.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "90154242a0.jpg": {
@@ -2235,13 +2235,13 @@
         "type": "realistic"
     },
     "90425001c2.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "904d1aed2e.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "906e90da86.jpg": {
@@ -2260,23 +2260,23 @@
         "type": "synthetic"
     },
     "916aa10a4e.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "91b4e8f5be.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "91dbcd1e39.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "91e747b614.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "91fed3a258.jpg": {
@@ -2285,8 +2285,8 @@
         "type": "synthetic"
     },
     "921c09ac04.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "926214c7ed.jpg": {
@@ -2300,13 +2300,13 @@
         "type": "synthetic"
     },
     "92c8f1639f.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "92d0b0e474.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "93086fd875.jpg": {
@@ -2315,8 +2315,8 @@
         "type": "synthetic"
     },
     "9329b6bf44.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "9335a58ace.jpg": {
@@ -2325,13 +2325,13 @@
         "type": "synthetic"
     },
     "9354bef9f8.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "93a4f3c3ff.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "93c9f9ab51.jpg": {
@@ -2340,8 +2340,8 @@
         "type": "synthetic"
     },
     "948f90b517.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "94cd0683bf.jpg": {
@@ -2355,18 +2355,18 @@
         "type": "realistic"
     },
     "95bbab7f62.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "95e23b84dc.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "963e09e342.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "9850bec4d6.jpg": {
@@ -2375,23 +2375,23 @@
         "type": "synthetic"
     },
     "987729723d.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "98ab45d666.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "98cfb103d9.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "9916adce3a.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "99948c71e9.jpg": {
@@ -2400,8 +2400,8 @@
         "type": "realistic"
     },
     "99dead1886.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "9a2cf6af7b.jpg": {
@@ -2425,13 +2425,13 @@
         "type": "realistic"
     },
     "9ac7179e36.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "9b1d5dbb2f.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "9b523125c4.jpg": {
@@ -2440,8 +2440,8 @@
         "type": "synthetic"
     },
     "9bda055f55.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "9c3188de3c.jpg": {
@@ -2450,13 +2450,13 @@
         "type": "synthetic"
     },
     "9c52b62be9.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "9c85ed8572.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "9c8c935fe1.jpg": {
@@ -2465,38 +2465,38 @@
         "type": "synthetic"
     },
     "9cd474ce98.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "9d073eff97.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "9de4d40631.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "9ef33dded2.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "9f09e8eb13.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "9f42cf3517.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "a00024616a.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "a1047b1d31.jpg": {
@@ -2505,13 +2505,13 @@
         "type": "realistic"
     },
     "a118cc0eef.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "a13dadc8aa.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "a19e03cb29.jpg": {
@@ -2525,8 +2525,8 @@
         "type": "synthetic"
     },
     "a1ebbad915.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "a23ab60000.jpg": {
@@ -2535,23 +2535,23 @@
         "type": "synthetic"
     },
     "a23d0f39ff.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "a38f37338d.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "a3c8e733c2.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "a40e01e44e.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "a41bf281c5.jpg": {
@@ -2565,8 +2565,8 @@
         "type": "synthetic"
     },
     "a4ab668c9d.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "a58b9292ae.jpg": {
@@ -2575,13 +2575,13 @@
         "type": "realistic"
     },
     "a5a7ae55c8.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "a5e9fe7e9d.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "a68f259aa1.jpg": {
@@ -2590,28 +2590,28 @@
         "type": "synthetic"
     },
     "a6ba6f2c21.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "a6e9a685a1.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "a7517a5aca.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "a7b6279399.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "a7dc5b6826.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "a7ff78f80d.jpg": {
@@ -2620,23 +2620,23 @@
         "type": "synthetic"
     },
     "a804940a0f.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "a8bec96e8e.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "a909c91803.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "a90d6026a3.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "a924f2921a.jpg": {
@@ -2650,18 +2650,18 @@
         "type": "synthetic"
     },
     "ab85b59ae7.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "ac398ff0a6.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "ac6dc2f383.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "ac91fc0a88.jpg": {
@@ -2670,8 +2670,8 @@
         "type": "synthetic"
     },
     "acc440e8b3.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "acd3406650.jpg": {
@@ -2685,18 +2685,18 @@
         "type": "realistic"
     },
     "ad0ff0a0ef.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "ad24b241e0.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "ad508d9260.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "ad5662bc2c.jpg": {
@@ -2730,8 +2730,8 @@
         "type": "realistic"
     },
     "aee1f233e8.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "af0023e783.jpg": {
@@ -2745,8 +2745,8 @@
         "type": "synthetic"
     },
     "afbd4a0c12.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "b03e60cf60.jpg": {
@@ -2755,23 +2755,23 @@
         "type": "synthetic"
     },
     "b08631f2e8.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "b08ba5c423.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "b0e2970db2.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "b17a1a8db9.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "b18957117f.jpg": {
@@ -2780,8 +2780,8 @@
         "type": "synthetic"
     },
     "b1d590a743.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "b21847fd83.jpg": {
@@ -2805,8 +2805,8 @@
         "type": "realistic"
     },
     "b39604c707.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "b3c3e2f1e7.jpg": {
@@ -2820,28 +2820,28 @@
         "type": "synthetic"
     },
     "b45d1b9c8e.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "b54b514af4.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "b5b3bd5386.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "b5eb43eccb.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "b69f51cf37.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "b6d834a722.jpg": {
@@ -2855,23 +2855,23 @@
         "type": "synthetic"
     },
     "b71ab57eee.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "b743353e19.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "b7884c7484.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "b7b954737f.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "b80c4cd5b5.jpg": {
@@ -2900,28 +2900,28 @@
         "type": "synthetic"
     },
     "bb1f751e14.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "bb5813e839.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "bb9185a55d.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "bc5d390b75.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "bcb61eed57.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "bce6edf442.jpg": {
@@ -2930,38 +2930,38 @@
         "type": "synthetic"
     },
     "bcfd8cfd72.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "bd46cab359.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "bdffc12a28.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "be6e02a1a0.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "bed833b26d.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "bee96cc990.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "bf3fd5cf4f.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "bf41ed9381.jpg": {
@@ -2970,13 +2970,13 @@
         "type": "realistic"
     },
     "bf4e63d566.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "bf7e1abc52.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "bf927c4e51.jpg": {
@@ -2985,8 +2985,8 @@
         "type": "realistic"
     },
     "bf95f87391.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "c01709e1be.jpg": {
@@ -2995,63 +2995,63 @@
         "type": "synthetic"
     },
     "c022ac053c.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "c076d80916.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "c0bb5815e7.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "c0d63de4f3.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "c19795c56e.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "c1a8a124bb.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "c1a99169bf.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "c1d85affa9.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "c1f62337b1.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "c2052d2b78.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "c23d18f4e9.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "c24c1ad817.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "c269c250f2.jpg": {
@@ -3060,8 +3060,8 @@
         "type": "synthetic"
     },
     "c2c4ab34e3.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "c2fc23c450.jpg": {
@@ -3080,13 +3080,13 @@
         "type": "realistic"
     },
     "c3d436d5b9.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "c3fad2a1d7.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "c4070cb00f.jpg": {
@@ -3095,28 +3095,28 @@
         "type": "realistic"
     },
     "c432cf7724.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "c4daa2b3b5.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "c50932690a.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "c54792308b.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "c57d3fa432.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "c65f59120b.jpg": {
@@ -3125,8 +3125,8 @@
         "type": "synthetic"
     },
     "c66389d36e.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "c67c347323.jpg": {
@@ -3135,8 +3135,8 @@
         "type": "synthetic"
     },
     "c6a55a5864.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "c6d25f1a0c.jpg": {
@@ -3145,18 +3145,18 @@
         "type": "realistic"
     },
     "c6d9c9ab6d.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "c76a550f9b.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "c789b45b56.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "c78f7889e4.jpg": {
@@ -3170,33 +3170,33 @@
         "type": "realistic"
     },
     "c87fb21dee.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "c8af980ccc.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "c8b6a24514.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "c955732f73.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "c9bb8f6f0e.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "c9bdd4724c.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "c9cf6312c7.jpg": {
@@ -3205,8 +3205,8 @@
         "type": "synthetic"
     },
     "c9eec1d5e8.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "c9efc4fa3f.jpg": {
@@ -3215,23 +3215,23 @@
         "type": "realistic"
     },
     "ca7a157902.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "cb3c0b2d9a.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "cb9d9658d5.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "cbcde0f0f4.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "cc0c65753d.jpg": {
@@ -3240,38 +3240,38 @@
         "type": "synthetic"
     },
     "cc719cc790.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "cca2e83aa4.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "ccc3fe6be6.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "cdac590241.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "ced234e6d4.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "cfcb59b2de.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "cff0539d7b.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "cff1c68ad9.jpg": {
@@ -3280,28 +3280,28 @@
         "type": "synthetic"
     },
     "d1907a4589.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "d195f07b6a.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "d1a6bd88f9.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "d226fd5a44.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "d28ff69b84.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "d2a4654e76.jpg": {
@@ -3310,48 +3310,48 @@
         "type": "synthetic"
     },
     "d3347f6f88.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "d3ad2968c8.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "d42c666249.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "d51b4dcd8c.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "d554a218e1.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "d583cd9c4d.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "d5cf70024d.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "d5e31f3bb6.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "d5f0541366.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "d5f1785434.jpg": {
@@ -3360,8 +3360,8 @@
         "type": "synthetic"
     },
     "d631e2f621.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "d662489cac.jpg": {
@@ -3370,8 +3370,8 @@
         "type": "synthetic"
     },
     "d67c3706fc.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "d6a053fa29.jpg": {
@@ -3380,8 +3380,8 @@
         "type": "realistic"
     },
     "d6bfe95443.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "d6c19fddba.jpg": {
@@ -3390,13 +3390,13 @@
         "type": "realistic"
     },
     "d6c4ea080d.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "d6e6967cf0.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "d707b86dc8.jpg": {
@@ -3405,33 +3405,33 @@
         "type": "synthetic"
     },
     "d75fc9b5e6.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "d79d8fcf1b.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "d851dc3b9b.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "d859c5ed97.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "d940c2187a.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "dac125ef85.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "dae1841427.jpg": {
@@ -3440,13 +3440,13 @@
         "type": "synthetic"
     },
     "db124efdf6.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "db2e7fcf8a.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "db56f47a9b.jpg": {
@@ -3460,18 +3460,18 @@
         "type": "synthetic"
     },
     "dbadfa8a6e.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "dc25fae11d.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "dc2a866875.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "dd67038de9.jpg": {
@@ -3480,8 +3480,8 @@
         "type": "realistic"
     },
     "dd92564333.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "ddc891ea82.jpg": {
@@ -3490,8 +3490,8 @@
         "type": "realistic"
     },
     "ddcb1bb059.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "ddd2eac02c.jpg": {
@@ -3505,8 +3505,8 @@
         "type": "realistic"
     },
     "de03ab75e7.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "de2ac1f86b.jpg": {
@@ -3515,18 +3515,18 @@
         "type": "realistic"
     },
     "de46fbe747.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "df271f2a70.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "df2a64458e.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "dfe699cc6f.jpg": {
@@ -3535,8 +3535,8 @@
         "type": "synthetic"
     },
     "e05978e82a.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "e086d888a9.jpg": {
@@ -3550,8 +3550,8 @@
         "type": "synthetic"
     },
     "e0b5fa9702.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "e18b59f754.jpg": {
@@ -3560,28 +3560,28 @@
         "type": "synthetic"
     },
     "e20c8fa13e.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "e215fce5de.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "e2874b8cc4.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "e38bcea425.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "e3c727c932.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "e3f0c58097.jpg": {
@@ -3600,8 +3600,8 @@
         "type": "realistic"
     },
     "e45a3fe981.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "e5566bcd24.jpg": {
@@ -3610,18 +3610,18 @@
         "type": "synthetic"
     },
     "e5616205ec.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "e56b77efe4.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "e5a3aa29b9.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "e5ac1d967e.jpg": {
@@ -3635,8 +3635,8 @@
         "type": "synthetic"
     },
     "e644708588.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "e668f8fbae.jpg": {
@@ -3655,8 +3655,8 @@
         "type": "realistic"
     },
     "e766f62c0d.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "e7775dcaa5.jpg": {
@@ -3670,23 +3670,23 @@
         "type": "realistic"
     },
     "e82771d53c.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "e85e4ae7ae.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "e880d138d8.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "e8d22245e2.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "e937c7a89a.jpg": {
@@ -3695,8 +3695,8 @@
         "type": "synthetic"
     },
     "e99b68ac3b.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "e9dacbe29f.jpg": {
@@ -3705,53 +3705,53 @@
         "type": "synthetic"
     },
     "ea6521d55f.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "ea889259c6.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "ebae1ab2f0.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "ec244b1b2f.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "ec4ebca954.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "ec7ae76cb4.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "ec9cfa6b37.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "ecc6153e93.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "ece3606a14.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "ed00906de2.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "ed033e6661.jpg": {
@@ -3760,8 +3760,8 @@
         "type": "synthetic"
     },
     "ed0c974a93.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "ed80d800e8.jpg": {
@@ -3770,18 +3770,18 @@
         "type": "realistic"
     },
     "ee83593a4b.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "eeb2fe6406.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "eebb4a1738.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "eed0ca82b9.jpg": {
@@ -3790,23 +3790,23 @@
         "type": "synthetic"
     },
     "eefde9bf3d.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "ef7c01087f.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "efe2a8fb27.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "f0930aae3f.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "f0c5a1e1c4.jpg": {
@@ -3815,13 +3815,13 @@
         "type": "synthetic"
     },
     "f0d5eaad74.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "f12182ceb5.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "f1cf01b90c.jpg": {
@@ -3845,8 +3845,8 @@
         "type": "synthetic"
     },
     "f27b77a5b3.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "f2a0eb8c4f.jpg": {
@@ -3855,18 +3855,18 @@
         "type": "synthetic"
     },
     "f31a053bc1.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "f3594052a8.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "f3c4d95108.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "f42ee796f5.jpg": {
@@ -3875,13 +3875,13 @@
         "type": "realistic"
     },
     "f448ac0964.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "f4ef3154d3.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "f5041689de.jpg": {
@@ -3890,8 +3890,8 @@
         "type": "synthetic"
     },
     "f515842511.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "f519abae2b.jpg": {
@@ -3905,8 +3905,8 @@
         "type": "realistic"
     },
     "f5c3091da0.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "f6520d57b8.jpg": {
@@ -3915,28 +3915,28 @@
         "type": "synthetic"
     },
     "f658991265.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "f6850c2c1e.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "f6d15b5127.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "f6e9784d90.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "f707a5d993.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "f77cd735c6.jpg": {
@@ -3945,13 +3945,13 @@
         "type": "synthetic"
     },
     "f7c5efb939.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "f7ce2519cf.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "f7df737485.jpg": {
@@ -3960,8 +3960,8 @@
         "type": "realistic"
     },
     "f800ea0e18.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "f8064f6ef0.jpg": {
@@ -3970,8 +3970,8 @@
         "type": "synthetic"
     },
     "f82f386334.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "f8f9b0de6c.jpg": {
@@ -3985,18 +3985,18 @@
         "type": "synthetic"
     },
     "f908846a0e.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "f987ad455c.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "fa007ae8f6.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "fa9d123a5a.jpg": {
@@ -4020,13 +4020,13 @@
         "type": "synthetic"
     },
     "fb1fde06df.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "fb775ed6c9.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "fb90c9bc5c.jpg": {
@@ -4035,8 +4035,8 @@
         "type": "realistic"
     },
     "fb9d1062ff.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "fbb00715b1.jpg": {
@@ -4045,28 +4045,28 @@
         "type": "synthetic"
     },
     "fbc3f3fdae.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "fc394f5ff4.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "fc7c23f078.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "fc8f23036f.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "fcb94942ac.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "fce75ed804.jpg": {
@@ -4075,18 +4075,18 @@
         "type": "synthetic"
     },
     "fd028c5759.jpg": {
-        "category": "violence",
-        "label_type": "violence_realistic",
+        "category": "graphic",
+        "label_type": "graphic_realistic",
         "type": "realistic"
     },
     "fd303514f1.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "fda707af19.jpg": {
-        "category": "violence",
-        "label_type": "violence_synthetic",
+        "category": "graphic",
+        "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
     "fef3309485.jpg": {
@@ -4100,18 +4100,18 @@
         "type": "synthetic"
     },
     "ff22ad2e30.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
     "ff270fe8f1.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_synthetic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
     "ffc58ff758.jpg": {
-        "category": "pornography",
-        "label_type": "pornography_realistic",
+        "category": "sex_nudity",
+        "label_type": "sex_nudity_realistic",
         "type": "realistic"
     }
 }
