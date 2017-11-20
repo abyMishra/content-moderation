@@ -1,4 +1,4 @@
-var sexDef = "Any obvious sexual activity (i.e., pornography), even if hidden from view, or visible \"private\" parts, even through clothing. Cartoon and art included. Kissing is allowed.";
+var sexDef = "Content showing any obvious sexual activity or visible \"private\" parts, even through clothing. Kissing without nudity is allowed.";
 var graphicDef = "Content displaying violence, mutilation, or torture towards a person or animal, or content displaying excessive injury, blood, or gore.";
 var safeDef = "Content that you could comfortably share with your 10-year-old child, elderly grandmother, or your boss and coworkers.";
 var otherDef = "None of the other categories adequately describe this content."
