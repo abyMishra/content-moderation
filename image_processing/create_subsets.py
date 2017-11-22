@@ -7,40 +7,40 @@ with open('labels.json') as handle:
     dataset = json.load(handle)
 
 # bin images by category
-pornography = []
-violence = []
-sfw = []
+sex_nudity = []
+graphic = []
+safe = []
 
 for name, label in dataset.items():
     category = label['category']
     name = name[:-4]
 
-    if category == 'pornography':
-        pornography.append(name)
-    elif category == 'violence':
-        violence.append(name)
+    if category == 'sex_nudity':
+        sex_nudity.append(name)
+    elif category == 'graphic':
+        graphic.append(name)
     else:
-        sfw.append(name)
+        safe.append(name)
 
 # shuffle images
 for i in range(3):
-    shuffle(pornography)
-    shuffle(violence)
-    shuffle(sfw)
+    shuffle(sex_nudity)
+    shuffle(graphic)
+    shuffle(safe)
 
-# violence/pornography split
-violence_split = 175
-pornography_split = 125
+# graphic/sex_nudity split
+graphic_split = 175
+sex_nudity_split = 125
 
-# subset size and n/sfw split
-sfw_split = 200
+# subset size and safe split
+safe_split = 200
 
  # randomly sample from image categories
 subset = []
 
-subset += sample(pornography, pornography_split)
-subset += sample(violence, violence_split)
-subset += sample(sfw, sfw_split)
+subset += sample(sex_nudity, sex_nudity_split)
+subset += sample(graphic, graphic_split)
+subset += sample(safe, safe_split)
 
 # shuffle subset and splt into groups of 10
 for i in range(5):
