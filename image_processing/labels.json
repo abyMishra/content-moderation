@@ -689,11 +689,6 @@
         "label_type": "safe_synthetic",
         "type": "synthetic"
     },
-    "2be471a156.jpg": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
     "2c021e98a9.jpg": {
         "category": "sex_nudity",
         "label_type": "sex_nudity_synthetic",
@@ -1337,11 +1332,6 @@
     "594a2a7132.jpg": {
         "category": "sex_nudity",
         "label_type": "sex_nudity_synthetic",
-        "type": "synthetic"
-    },
-    "59b535e41d.jpg": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
         "type": "synthetic"
     },
     "59bcd8681f.jpg": {
@@ -2785,11 +2775,6 @@
         "type": "synthetic"
     },
     "b21847fd83.jpg": {
-        "category": "safe",
-        "label_type": "safe_realistic",
-        "type": "realistic"
-    },
-    "b27b082d9f.jpg": {
         "category": "safe",
         "label_type": "safe_realistic",
         "type": "realistic"
