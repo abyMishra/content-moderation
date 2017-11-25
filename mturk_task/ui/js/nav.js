@@ -46,7 +46,7 @@ $(document).ready(function() {
 
     $("<input />")
       .attr("type", "hidden")
-      .attr("name", "labels")
+      .attr("name", "survey")
       .attr("code", $("textarea[name='survey']").val())
       .appendTo("#mturk_form");
   });
