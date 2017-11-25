@@ -38,8 +38,8 @@ safe_split = 200
  # randomly sample from image categories
 subset = []
 
-subset += sample(sex_nudity, sex_nudity_split)
-subset += sample(graphic, graphic_split)
+#subset += sample(sex_nudity, sex_nudity_split)
+#subset += sample(graphic, graphic_split)
 subset += sample(safe, safe_split)
 
 # shuffle subset and splt into groups of 10

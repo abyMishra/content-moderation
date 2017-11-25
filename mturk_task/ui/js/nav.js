@@ -41,7 +41,13 @@ $(document).ready(function() {
     $("<input />")
       .attr("type", "hidden")
       .attr("name", "labels")
-      .attr("value", workerAnswers)
+      .attr("value", JSON.stringify(workerAnswers))
+      .appendTo("#mturk_form");
+
+    $("<input />")
+      .attr("type", "hidden")
+      .attr("name", "labels")
+      .attr("code", $("textarea[name='survey']").val())
       .appendTo("#mturk_form");
   });
 
@@ -72,7 +78,7 @@ $(document).ready(function() {
     if (error)
       workerAnswers[currentImg] = "error";
     else
-      workerAnswers[currentImg] = Object.create(currentLabels);
+      workerAnswers[currentImg] = JSON.parse(JSON.stringify(currentLabels));
 
     isFirstImageLoad = false;
 
