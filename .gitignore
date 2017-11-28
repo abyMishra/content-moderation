@@ -50,3 +50,6 @@ Temporary Items
 images
 images.zip
 *.swp
+venv/
+.ipynb_checkpoints/
+data_files/
