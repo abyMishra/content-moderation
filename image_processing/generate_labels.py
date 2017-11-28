@@ -16,7 +16,8 @@ for dirname, dirnames, filenames in os.walk(path):
 
     for f in filenames:
         # generate truth label
-        labels[f] = {
+        name = os.path.splitext(f)[0]
+        labels[name] = {
             'category': image_category,
             'type': image_type,
             'label_type': label_name
