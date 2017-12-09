@@ -6,6 +6,7 @@ camera-calibration==1.12.21
 camera-calibration-parsers==1.11.13
 catkin==0.6.19
 cv-bridge==1.11.16
+cycler==0.10.0
 decorator==4.1.2
 diagnostic-analysis==1.9.2
 diagnostic-common-diagnostics==1.9.2
@@ -34,6 +35,7 @@ jupyter-console==5.2.0
 jupyter-core==4.4.0
 laser-geometry==1.6.4
 MarkupSafe==1.0
+matplotlib==2.1.0
 message-filters==1.11.21
 mistune==0.8.1
 nbconvert==5.3.1
@@ -49,6 +51,7 @@ pluginlib==1.10.5
 prompt-toolkit==1.0.15
 ptyprocess==0.5.2
 Pygments==2.2.0
+pyparsing==2.2.0
 python-dateutil==2.6.1
 python-qt-binding==0.2.19
 pytz==2017.3
