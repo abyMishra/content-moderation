@@ -45,6 +45,8 @@ function prepImg() {
   if (current + 2 < imgs.length)
     (new Image()).src = "https://s3-us-west-2.amazonaws.com/budang-moderation/" + imgs[current + 2] + ".jpg";
 
+  $("#slider").val(blurOptns.stdDeviation);
+
   $("#pic")
     .attr("src", currentImgSrc)
     .jqImgBlur(blurOptns);
