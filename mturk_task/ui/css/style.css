@@ -82,6 +82,11 @@ img, image, svg, .jqImgBlurPic {
   min-height: 50%;
 }
 
+#slider {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
 .question {
   padding-bottom: 8px;
 }

@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel='stylesheet' type='text/css' href='css/style.css'>
 <link rel='stylesheet' type='text/css' href='css/modal.css'>
+<link rel='stylesheet' type='text/css' href='css/slider.css'>
 
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js'></script>
 <script src='https://code.jquery.com/jquery-1.12.4.js'></script>
@@ -106,7 +107,7 @@ function decode(strToDecode) {
 
 <h3>INSTRUCTIONS</h3>
 <div>
-  <p>We are researchers at the University of Texas at Austin studying content moderation with the goal of making the Internet a better place. Please review each image carefully and answer its corresponding questions to the best of your ability. <span class='important'>You may mouse over parts of an image to temporarily unblur it.</span> Your main task is to classify images based on the following categories:</p>
+  <p>We are researchers at the University of Texas at Austin studying content moderation with the goal of making the Internet a better place. Please review each image carefully and answer its corresponding questions to the best of your ability. <span class='important'>You may use the slider below each image to decrease the level of blur.</span> Your main task is to classify images based on the following categories:</p>
   <ul>
     <li><b>Sex and nudity:</b> Content showing any obvious sexual activity or visible "private" parts, even through clothing. Kissing without nudity is allowed.</li>
     <li><b>Graphic content:</b> Content displaying violence, mutilation, or torture towards a person or animal, or content displaying excessive injury, blood, or gore.</li>
@@ -130,7 +131,7 @@ function decode(strToDecode) {
   </td>
   <td id='right'>
     <div class='question'>
-      <b>1. Which category <span class='important'>best</span> describes this image? You may mouse over parts of the image to temporarily unblur it.</b><br>
+      <b>1. Which category <span class='important'>best</span> describes this image? You may use the slider below the image to decrease the level of blur.</b><br>
       <div id='categories'>
         <!--
         <input type='radio' name='category' value='sex_nudity'> Sex and nudity<br>
