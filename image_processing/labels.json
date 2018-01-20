@@ -3039,11 +3039,6 @@
         "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
-    "c8b6a24514": {
-        "category": "sex_nudity",
-        "label_type": "sex_nudity_synthetic",
-        "type": "synthetic"
-    },
     "c955732f73": {
         "category": "sex_nudity",
         "label_type": "sex_nudity_synthetic",
