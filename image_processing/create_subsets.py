@@ -28,7 +28,7 @@ shuffle(safe)
 
 # add 3 images from each category to a subset
 subsets = []
-for i in range(0, 180, 3):
+for i in range(0, 60, 3):
     subsets.append([sex_nudity[i], sex_nudity[i + 1], sex_nudity[i + 2], \
                     graphic[i],    graphic[i + 1],    graphic[i + 2],    \
                     safe[i],       safe[i + 1],       safe[i + 2]        ])
