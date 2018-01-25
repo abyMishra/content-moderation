@@ -229,6 +229,21 @@ if (gup("assignmentId") == "ASSIGNMENT_ID_NOT_AVAILABLE") {
     $("#submitButton").attr("disabled", true);
     $("#consent").css("display", "none");
     $(".accordion").accordion({active: 0});
+    /* fixes unblurring issue for 14c and 14m caused by collapsible div */
+    var collapsed = $("#ui-id-2").height();
+    var uncollapsed = collapsed + $("#ui-id-2").height();
+    correction = collapsed;
+
+    console.log(collapsed, uncollapsed)
+
+    $(".accordion").on("accordionactivate", function(event, ui) {
+      console.log('xxx')
+      if (!ui.newHeader)
+        correction = collapsed;
+      else
+        correction = uncollapsed;
+    });
+    /********************************************************************/
     $("*").click(function(evt) {
       evt.stopPropagation();
       evt.preventDefault();
@@ -240,6 +255,7 @@ if (gup("assignmentId") == "ASSIGNMENT_ID_NOT_AVAILABLE") {
     $("#mturk_form").attr("action", "https://workersandbox.mturk.com/mturk/externalSubmit");
 }
 </script>
+<script src='js/correction.js'></script>
 
 </body>
 </html>

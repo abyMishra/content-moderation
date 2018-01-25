@@ -26,7 +26,6 @@
         delay:300
       }
     };
-    var correction = 162.5; // workaround for first image load
 
     $.extend(true, defOptns, options);
 
@@ -238,9 +237,9 @@
         var upY = event.clientY - rect.top;
         var shapeElm = document.createElementNS(svgNS, shape);
 
-        // workaround for first image load
-        if (isFirstImageLoad)
-          upY += correction;
+        // fixes error due to collapsible div
+        console.log(correction)
+        upY += correction;
 
         if (shape === 'circle') {
           shapeElm.setAttribute("cx", upX);
@@ -287,9 +286,9 @@
         var upX = event.clientX - rect.left;
         var upY = event.clientY - rect.top;
 
-        // workaround for first image load
-        if (isFirstImageLoad)
-          upY += correction;
+        // fixes error due to collapsible div
+        console.log(correction)
+        upY += correction;
 
         var shapeElm = document.createElementNS(svgNS, shape);
         if (shape === 'circle') {

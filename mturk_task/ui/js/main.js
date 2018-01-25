@@ -1,9 +1,11 @@
 var imgs = [];
-var isFirstImageLoad = true;
 var current = 0;
 var currentImg = -1;
 var currentLabels = {};
 var workerAnswers = {};
+
+var firstImgLoad = true;
+var correction = 0;
 
 (function(key) {
   var regexS = "[\\?&]" + key + "=([^&#]*)";
@@ -19,7 +21,7 @@ var workerAnswers = {};
 })("imgs");
 
 $(document).ready(function() {
-  $(".accordion").accordion({
+   $(".accordion").accordion({
     collapsible: true,
     active: false
   });
@@ -46,6 +48,11 @@ function prepImg() {
     (new Image()).src = "https://s3-us-west-2.amazonaws.com/budang-moderation/" + imgs[current + 2] + ".jpg";
 
   $("#slider").val(blurOptns.stdDeviation);
+
+  if (firstImgLoad)
+    firstImgLoad = false;
+  else
+    correction = 0;
 
   $("#pic")
     .attr("src", currentImgSrc)
