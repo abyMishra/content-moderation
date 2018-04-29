@@ -1,0 +1,77 @@
+<!-- This file needs to be hosted on an external server.  -->
+
+<!DOCTYPE html>
+
+<html>
+
+<link rel='stylesheet' href='https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel='stylesheet' type='text/css' href='css/style.css'>
+<link rel='stylesheet' type='text/css' href='css/slider.css'>
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js'></script>
+<script src='https://code.jquery.com/jquery-1.12.4.js'></script>
+<script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+  function changeBlur(val) {
+    $("img").jqImgBlur({stdDeviation: val});
+  }
+</script>
+
+<body>
+<div id='instructions' class='accordion'>
+
+<h3>INSTRUCTIONS</h3>
+<div>
+  <p>We are researchers at the University of Texas at Austin studying content moderation with the goal of making the Internet a better place. To experiment with each unblurring feature, click any of the following buttons (default is <b class='important'>click</b>):</p>
+  <ul>
+    <li><b class='important'>click:</b> Click regions of the image to unblur it.</li>
+    <li><b class='important'>mouse over:</b> Mouse over (use the cursor) to temporarily unblur regions.</li>
+    <li><b class='important'>slider:</b> Use the slider below the image to gradually increase/decrease the blur.</li>
+  </ul>
+</div>
+
+</div>
+
+<div>
+
+<div id='task' class='section'>
+
+<div id='blurBtns'>
+  <button id='click' class='btn btn-primary btn-lg' type='button'>click</button>
+  <button id='mouse' class='btn btn-primary btn-lg' type='button'>mouse over</button>
+  <button id='slide' class='btn btn-primary btn-lg' type='button'>slider</button>
+</div>
+
+<table id='grid'>
+  <tr>
+    <td>
+      <img src='https://raw.githubusercontent.com/budang/budang.github.io/master/me/assets/backgrounds/brack.jpg'>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <input type='range' id='slider' min='0' max='14' value='14' oninput='changeBlur(this.value)' onchange='changeBlur(this.value)'>
+    </td>
+  </tr>
+</table>
+</div>
+
+</div>
+
+<script type="text/javascript">
+  var blurOptns = {
+    stdDeviation: 14,
+    sclick: {
+      circle: { r: 50 }
+    }
+  }
+</script>
+<script src='js/jqImgBlurEffects/jqImgBlurEffects.js'></script>
+<script src='js/main.js'></script>
+
+</body>
+
+</html>
