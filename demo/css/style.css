@@ -58,6 +58,12 @@ td {
   padding: 10px;
 }
 
-#slider {
+#slideDiv {
   margin-bottom: 10px;
+  text-align: center;
+}
+
+#slider {
+  padding-left: 20%;
+  padding-right: 20%;
 }
