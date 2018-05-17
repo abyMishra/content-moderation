@@ -47,6 +47,8 @@ Temporary Items
 .apdisk
 
 # Other
+__pycache__/
+azure_cfg.py
 images
 images.zip
 *.swp
