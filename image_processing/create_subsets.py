@@ -1,6 +1,6 @@
 import json
 
-from random import sample, shuffle
+from random import shuffle
 
 # get file names and labels
 with open('labels.json') as handle:
@@ -13,7 +13,6 @@ safe = []
 
 for name, label in dataset.items():
     category = label['category']
-    name = name[:-4]
 
     if category == 'sex_nudity':
         sex_nudity.append(name)
@@ -23,33 +22,25 @@ for name, label in dataset.items():
         safe.append(name)
 
 # shuffle images
-for i in range(3):
-    shuffle(sex_nudity)
-    shuffle(graphic)
-    shuffle(safe)
+shuffle(sex_nudity)
+shuffle(graphic)
+shuffle(safe)
 
-# graphic/sex_nudity split
-graphic_split = 175
-sex_nudity_split = 125
+# add 3 images from each category to a subset
+subsets = []
+for i in range(0, 60, 3):
+    subsets.append([sex_nudity[i], sex_nudity[i + 1], sex_nudity[i + 2], \
+                    graphic[i],    graphic[i + 1],    graphic[i + 2],    \
+                    safe[i],       safe[i + 1],       safe[i + 2]        ])
 
-# subset size and safe split
-safe_split = 200
-
- # randomly sample from image categories
-subset = []
-
-#subset += sample(sex_nudity, sex_nudity_split)
-#subset += sample(graphic, graphic_split)
-subset += sample(safe, safe_split)
-
-# shuffle subset and splt into groups of 10
-for i in range(5):
+# shuffle subsets
+shuffle(subsets)
+for i in range(0, len(subsets)):
+    subset = subsets[i]
     shuffle(subset)
-
-subset = [','.join(subset[i:i + 10]) \
-         for i in range(0, len(subset), 10)]
+    subsets[i] = (',').join(subset)
 
 # save subset to text file
 with open('subsets.txt', 'w') as handle:
-    handle.write('\n'.join(subset))
+    handle.write('\n'.join(subsets))
 

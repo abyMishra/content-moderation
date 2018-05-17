@@ -79,11 +79,6 @@
         "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
-    "0749fab501": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
     "07c003c5da": {
         "category": "sex_nudity",
         "label_type": "sex_nudity_realistic",
@@ -149,11 +144,6 @@
         "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
-    "0b48dfb26c": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
     "0bcf9433b6": {
         "category": "graphic",
         "label_type": "graphic_realistic",
@@ -217,11 +207,6 @@
     "0f947c45c6": {
         "category": "graphic",
         "label_type": "graphic_synthetic",
-        "type": "synthetic"
-    },
-    "0fd1d109b9": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
         "type": "synthetic"
     },
     "1067dbff1b": {
@@ -319,11 +304,6 @@
         "label_type": "graphic_realistic",
         "type": "realistic"
     },
-    "1601a7e01e": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
     "16143da53b": {
         "category": "safe",
         "label_type": "safe_synthetic",
@@ -398,11 +378,6 @@
         "category": "graphic",
         "label_type": "graphic_realistic",
         "type": "realistic"
-    },
-    "1a02323d94": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
     },
     "1a1a0034ff": {
         "category": "safe",
@@ -479,11 +454,6 @@
         "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
-    "20556e2c84": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
     "205cf6b81c": {
         "category": "graphic",
         "label_type": "graphic_realistic",
@@ -498,11 +468,6 @@
         "category": "sex_nudity",
         "label_type": "sex_nudity_realistic",
         "type": "realistic"
-    },
-    "2096d3a89e": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
     },
     "211010eaba": {
         "category": "sex_nudity",
@@ -784,11 +749,6 @@
         "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
-    "3405170590": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
     "34237c75c4": {
         "category": "safe",
         "label_type": "safe_synthetic",
@@ -928,11 +888,6 @@
         "category": "sex_nudity",
         "label_type": "sex_nudity_realistic",
         "type": "realistic"
-    },
-    "3f57b78ecd": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
     },
     "3fcd99870b": {
         "category": "sex_nudity",
@@ -1169,11 +1124,6 @@
         "label_type": "safe_realistic",
         "type": "realistic"
     },
-    "4d5f514151": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
     "4d68aadc7f": {
         "category": "safe",
         "label_type": "safe_realistic",
@@ -1182,11 +1132,6 @@
     "4db509bca7": {
         "category": "graphic",
         "label_type": "graphic_synthetic",
-        "type": "synthetic"
-    },
-    "4e55a68985": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
         "type": "synthetic"
     },
     "4f76e8168a": {
@@ -1393,11 +1338,6 @@
         "category": "sex_nudity",
         "label_type": "sex_nudity_realistic",
         "type": "realistic"
-    },
-    "5c2c8d5201": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
     },
     "5cd0239ab9": {
         "category": "sex_nudity",
@@ -1784,11 +1724,6 @@
         "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
-    "736a74c413": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
     "73abdd957f": {
         "category": "graphic",
         "label_type": "graphic_realistic",
@@ -1802,16 +1737,6 @@
     "741ab6ee0c": {
         "category": "sex_nudity",
         "label_type": "sex_nudity_synthetic",
-        "type": "synthetic"
-    },
-    "74ccd051a1": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
-    "750da22de0": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
         "type": "synthetic"
     },
     "76027a535f": {
@@ -1925,16 +1850,6 @@
         "type": "realistic"
     },
     "7db39e1d44": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
-    "7dba0c17b6": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
-    "7dd9272009": {
         "category": "safe",
         "label_type": "safe_synthetic",
         "type": "synthetic"
@@ -2279,16 +2194,6 @@
         "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
-    "926214c7ed": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
-    "92734d30c0": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
     "92c8f1639f": {
         "category": "sex_nudity",
         "label_type": "sex_nudity_synthetic",
@@ -2308,11 +2213,6 @@
         "category": "sex_nudity",
         "label_type": "sex_nudity_realistic",
         "type": "realistic"
-    },
-    "9335a58ace": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
     },
     "9354bef9f8": {
         "category": "graphic",
@@ -2574,11 +2474,6 @@
         "label_type": "graphic_realistic",
         "type": "realistic"
     },
-    "a68f259aa1": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
     "a6ba6f2c21": {
         "category": "graphic",
         "label_type": "graphic_synthetic",
@@ -2688,11 +2583,6 @@
         "category": "sex_nudity",
         "label_type": "sex_nudity_realistic",
         "type": "realistic"
-    },
-    "ad5662bc2c": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
     },
     "ad8a745131": {
         "category": "safe",
@@ -2870,16 +2760,6 @@
         "type": "synthetic"
     },
     "bad71f2706": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
-    "bae393a15d": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
-    "bb0d674726": {
         "category": "safe",
         "label_type": "safe_synthetic",
         "type": "synthetic"
@@ -3144,11 +3024,6 @@
         "label_type": "sex_nudity_realistic",
         "type": "realistic"
     },
-    "c78f7889e4": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
     "c7f970cf64": {
         "category": "safe",
         "label_type": "safe_realistic",
@@ -3163,11 +3038,6 @@
         "category": "sex_nudity",
         "label_type": "sex_nudity_realistic",
         "type": "realistic"
-    },
-    "c8b6a24514": {
-        "category": "sex_nudity",
-        "label_type": "sex_nudity_synthetic",
-        "type": "synthetic"
     },
     "c955732f73": {
         "category": "sex_nudity",
@@ -3339,20 +3209,10 @@
         "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
-    "d5f1785434": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
     "d631e2f621": {
         "category": "graphic",
         "label_type": "graphic_realistic",
         "type": "realistic"
-    },
-    "d662489cac": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
     },
     "d67c3706fc": {
         "category": "graphic",
@@ -3529,11 +3389,6 @@
         "label_type": "safe_synthetic",
         "type": "synthetic"
     },
-    "e0a2064eed": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
     "e0b5fa9702": {
         "category": "sex_nudity",
         "label_type": "sex_nudity_synthetic",
@@ -3674,11 +3529,6 @@
         "label_type": "sex_nudity_synthetic",
         "type": "synthetic"
     },
-    "e937c7a89a": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
     "e99b68ac3b": {
         "category": "sex_nudity",
         "label_type": "sex_nudity_realistic",
@@ -3792,11 +3642,6 @@
     "f0930aae3f": {
         "category": "sex_nudity",
         "label_type": "sex_nudity_synthetic",
-        "type": "synthetic"
-    },
-    "f0c5a1e1c4": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
         "type": "synthetic"
     },
     "f0d5eaad74": {
@@ -3949,11 +3794,6 @@
         "label_type": "graphic_synthetic",
         "type": "synthetic"
     },
-    "f8064f6ef0": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
     "f82f386334": {
         "category": "sex_nudity",
         "label_type": "sex_nudity_realistic",
@@ -3990,16 +3830,6 @@
         "type": "synthetic"
     },
     "fab21e9c00": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
-    "fae08079f4": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
-    },
-    "fb0cf7b369": {
         "category": "safe",
         "label_type": "safe_synthetic",
         "type": "synthetic"
@@ -4053,11 +3883,6 @@
         "category": "graphic",
         "label_type": "graphic_realistic",
         "type": "realistic"
-    },
-    "fce75ed804": {
-        "category": "safe",
-        "label_type": "safe_synthetic",
-        "type": "synthetic"
     },
     "fd028c5759": {
         "category": "graphic",

@@ -1,0 +1,68 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, img {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0% 1%;
+}
+
+#instructions {
+  border: 1px solid black;
+  border-bottom-style: none;
+  padding: 10px;
+}
+
+p, ol {
+  font-size: 18px;
+}
+
+.important {
+  color: Red;
+}
+
+ul {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+}
+
+ul li {
+  padding: 2px;
+}
+
+#task {
+  border: 1px solid black;
+  text-align: center;
+}
+
+#blurBtns {
+  margin-top: 10px;
+}
+
+button {
+  width: 251px;
+}
+
+table {
+  width: 100%;
+}
+
+table, th {
+  padding: 5px;
+  font-size: 18px;
+}
+
+td {
+  padding: 10px;
+}
+
+#slideDiv {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#slider {
+  padding-left: 20%;
+  padding-right: 20%;
+}
