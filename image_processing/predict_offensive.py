@@ -18,6 +18,7 @@ headers = {
 # setup
 images = glob.glob('../images/**/*.jpg')
 predictions = {}
+failed = []
 
 # loop through images
 for idx, image in enumerate(images):
@@ -42,12 +43,19 @@ for idx, image in enumerate(images):
             'RacyClassificationScore' : data['RacyClassificationScore'],
             'IsImageRacyClassified'   : data['IsImageRacyClassified']
         }
-    except Exception as e:
-        print("[Errno {0}] {1}".format(e.errno, e.strerror))
+    except Exception:
+        print('[ERROR] ' + str(data))
+
+        failed.append(image)
         predictions[name] = None
+
+# print images for which predictions failed
+if len(failed) > 0:
+    print('[INFO] Failed to predict adult content in the following images:')
+    print('\t' + ('\n\t').join(failed))
 
 # save predictions to json
 print('[INFO] Saving predictions to disk...')
-with(open('azure_predictions.json'), 'w') as handle:
-    json.dump(predictions, handle, sort_keys=true, indent=4)
+with open('azure_predictions.json', 'w') as handle:
+    json.dump(predictions, handle, sort_keys=True, indent=4)
 
