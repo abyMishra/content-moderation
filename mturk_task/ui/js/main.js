@@ -5,6 +5,10 @@ var currentImg = -1;
 var currentLabels = {};
 var workerAnswers = {};
 
+$(function() {
+  $("#consent-form").load("consent_form.htm");
+});
+
 (function(key) {
   var regexS = "[\\?&]" + key + "=([^&#]*)";
   var regex = new RegExp(regexS);
@@ -22,16 +26,6 @@ $(document).ready(function() {
   $(".accordion").accordion({
     collapsible: true,
     active: false
-  });
-
-  $("#consent-accept").click(function() {
-    $("#consent").css("display", "none");
-    $(".accordion").accordion({active: 0});
-  });
-
-  $("#consent-decline").click(function() {
-    $("#mturk_form").css("display", "none");
-    $("body").text("Thank you for your interest in completing this HIT. Unfortunately, participation is only possible if you consent to it. Please click \"Return HIT\" to allow someone else to work on this task.");
   });
 });
 
@@ -69,4 +63,3 @@ function prepImg() {
     $("textarea[name=rationale]").val("");
   }
 }
-
