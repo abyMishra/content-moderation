@@ -24,15 +24,14 @@ $(document).ready(function() {
     }
   });
 
-  $("#submitButton").prop("disabled", true);
+  if ($("textarea[name='survey']").val() === '' )
+    $("#submitButton").prop("disabled", true);
 
-  $("textarea[name='survey']").keyup(function() {
-    if($(this).val().length > 0) {
-      $("#submitButton").attr("disabled", false);
-    }
-    else {
+  $("textarea[name='survey']").on("input", function(e) {
+    if (e.target.value === '')
       $("#submitButton").attr("disabled", true);
-    }
+    else
+      $("#submitButton").attr("disabled", false);
   });
 
   $("#submitButton").click(function(e) {
@@ -89,4 +88,3 @@ $(document).ready(function() {
     prepImg();
   }
 });
-
